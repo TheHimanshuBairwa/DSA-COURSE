@@ -1,0 +1,3088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B2AD2B728A640C4007AB9EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AD2B628A640C4007AB9EB /* main.cpp */; };
+		6B2AD2C228A6413B007AB9EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AD2C128A6413B007AB9EB /* main.cpp */; };
+		6B2AD2CD28A6421C007AB9EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AD2CC28A6421C007AB9EB /* main.cpp */; };
+		6B2E0C042894531600AE54F7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E0C032894531600AE54F7 /* main.cpp */; };
+		6B30809528A3DF1400759435 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B30809428A3DF1400759435 /* main.cpp */; };
+		6B67149F28A6DE5B0074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B67149E28A6DE5B0074FD43 /* main.cpp */; };
+		6B6714AA28A6E8C30074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714A928A6E8C30074FD43 /* main.cpp */; };
+		6B6714B528A6E9270074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714B428A6E9270074FD43 /* main.cpp */; };
+		6B6714C028A6F0640074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714BF28A6F0640074FD43 /* main.cpp */; };
+		6B6714CB28A6FC390074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714CA28A6FC390074FD43 /* main.cpp */; };
+		6B6714D628A7009B0074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714D528A7009B0074FD43 /* main.cpp */; };
+		6B6714E128A705420074FD43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B6714E028A705420074FD43 /* main.cpp */; };
+		6B76D11A28A1023E00A152EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B76D11928A1023E00A152EE /* main.cpp */; };
+		6B76D12528A10A9B00A152EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B76D12428A10A9B00A152EE /* main.cpp */; };
+		6B76D13028A1294B00A152EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B76D12F28A1294B00A152EE /* main.cpp */; };
+		6B862B2A28A25CFD0089DDC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B862B2928A25CFD0089DDC2 /* main.cpp */; };
+		6BA954BB28A38E520017503E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BA954BA28A38E520017503E /* main.cpp */; };
+		6BA954C628A3A7310017503E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BA954C528A3A7310017503E /* main.cpp */; };
+		6BA954D128A3ACF80017503E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BA954D028A3ACF80017503E /* main.cpp */; };
+		6BA997CA28A37358004A4821 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BA997C928A37358004A4821 /* main.cpp */; };
+		6BAF9C8928A50FFC00BF5C78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF9C8828A50FFC00BF5C78 /* main.cpp */; };
+		6BAF9C9428A5105E00BF5C78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF9C9328A5105E00BF5C78 /* main.cpp */; };
+		6BC0529D28992565004D8054 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0529C28992565004D8054 /* main.cpp */; };
+		6BC052A828992E34004D8054 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC052A728992E34004D8054 /* main.cpp */; };
+		6BC052B328993EF4004D8054 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC052B228993EF4004D8054 /* main.cpp */; };
+		6BCFA8DF2897DD6000363CA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BCFA8DE2897DD6000363CA4 /* main.cpp */; };
+		6BCFA8EA2897DE2000363CA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BCFA8E92897DE2000363CA4 /* main.cpp */; };
+		6BD1AC5E2893E2E700587611 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1AC5D2893E2E700587611 /* main.cpp */; };
+		6BD1AC692893E36100587611 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1AC682893E36100587611 /* main.cpp */; };
+		6BDC7C66289289D9002E1797 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC7C65289289D9002E1797 /* main.cpp */; };
+		6BDC7C7328928A1B002E1797 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC7C7228928A1B002E1797 /* main.cpp */; };
+		6BED4EBC28A368A9000FBE7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BED4EBB28A368A9000FBE7C /* main.cpp */; };
+		6BED4EC728A3695E000FBE7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BED4EC628A3695E000FBE7C /* main.cpp */; };
+		6BFD0A0F289A833000931BB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD0A0E289A833000931BB1 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B2AD2B228A640C4007AB9EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B2AD2BD28A6413B007AB9EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B2AD2C828A6421C007AB9EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B2E0BFF2894531600AE54F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B30809028A3DF1400759435 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B67149A28A6DE5B0074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714A528A6E8C30074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714B028A6E9270074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714BB28A6F0640074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714C628A6FC380074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714D128A7009B0074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B6714DC28A705420074FD43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B76D11528A1023E00A152EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B76D12028A10A9B00A152EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B76D12B28A1294B00A152EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B862B2528A25CFD0089DDC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BA954B628A38E520017503E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BA954C128A3A7310017503E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BA954CC28A3ACF80017503E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BA997C528A37358004A4821 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BAF9C8428A50FFC00BF5C78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BAF9C8F28A5105E00BF5C78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BC0529828992565004D8054 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BC052A328992E34004D8054 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BC052AE28993EF4004D8054 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BCFA8DA2897DD6000363CA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BCFA8E52897DE2000363CA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BD1AC592893E2E700587611 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BD1AC642893E36100587611 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BDC7C60289289D9002E1797 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BDC7C6E28928A1B002E1797 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BDC7C792892C32D002E1797 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BED4EB728A368A9000FBE7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BED4EC228A3695E000FBE7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BFD0A0A289A833000931BB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B2AD2B428A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-39 Boolean parenthesis Recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2AD2B628A640C4007AB9EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B2AD2BF28A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-40 Boolean Parenthesis Memosized"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2AD2C128A6413B007AB9EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B2AD2CA28A6421C007AB9EB /* Lect-41 Scrambled String Recursive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-41 Scrambled String Recursive"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2AD2CC28A6421C007AB9EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B2E0C012894531600AE54F7 /* Lect-9 Count Subset with given Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-9 Count Subset with given Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2E0C032894531600AE54F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B30809228A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-34 Matrix chain multiplication Recursive"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B30809428A3DF1400759435 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B67149C28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-42 Scrambled String Memoized"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B67149E28A6DE5B0074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714A728A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-43 Egg Dropping Problem Recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714A928A6E8C30074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714B228A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-44 Egg Dropping Problem Memoization"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714B428A6E9270074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714BD28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-45 Egg Dropping Problem Memoized more Optimised"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714BF28A6F0640074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714C828A6FC380074FD43 /* Lect-48 Diameter of Binary Tree DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-48 Diameter of Binary Tree DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714CA28A6FC390074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714D328A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-49 Maximum Path Sum DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714D528A7009B0074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B6714DE28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-50 Maximum Path sum | From leaf node to leaf node"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6714E028A705420074FD43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B76D11728A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-22 Longest Common Substring 2D DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B76D11928A1023E00A152EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B76D12228A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-23 Print Longest common Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B76D12428A10A9B00A152EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B76D12D28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-24 Shortest common SuperSequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B76D12F28A1294B00A152EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B862B2728A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B862B2928A25CFD0089DDC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BA954B828A38E520017503E /* Lect-30 Longest Repeating Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-30 Longest Repeating Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA954BA28A38E520017503E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BA954C328A3A7310017503E /* Lect-31 Sequence Pattern Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-31 Sequence Pattern Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA954C528A3A7310017503E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BA954CE28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-32 Minimum number of insertion in a string to make it palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA954D028A3ACF80017503E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BA997C728A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-29 Print Shortest comon SuperSequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA997C928A37358004A4821 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BAF9C8628A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-37 Palindrome Partitioning using Memoization"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAF9C8828A50FFC00BF5C78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BAF9C9128A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-38 Palindrome Partitioning Optimized"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAF9C9328A5105E00BF5C78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BC0529A28992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-14 Rod cutting Problem Unbounded knapsack"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC0529C28992565004D8054 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BC052A528992E34004D8054 /* Lect-15 Coin change Problem-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-15 Coin change Problem-1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC052A728992E34004D8054 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BC052B028993EF4004D8054 /* Lect-16 Coin change problem 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-16 Coin change problem 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC052B228993EF4004D8054 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BCFA8DC2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-11 Count the number of subset with a given difference"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCFA8DE2897DD6000363CA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BCFA8E72897DE2000363CA4 /* Lect-10 Minimum subset sum difference */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-10 Minimum subset sum difference"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCFA8E92897DE2000363CA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BD1AC5B2893E2E700587611 /* Lect-7 Subset Sum problem DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-7 Subset Sum problem DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD1AC5D2893E2E700587611 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BD1AC662893E36100587611 /* Lect-8 Equal Sum Partition DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-8 Equal Sum Partition DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD1AC682893E36100587611 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BDC7C62289289D9002E1797 /* DP by ADITYA VERMA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DP by ADITYA VERMA"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDC7C65289289D9002E1797 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BDC7C7028928A1B002E1797 /* Lect-5  KnapSack 0 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-5  KnapSack 0 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDC7C7228928A1B002E1797 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BDC7C7B2892C32D002E1797 /* Lect-6 Equal Sum Partition Problem DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-6 Equal Sum Partition Problem DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BED4EB928A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-26 Longest Palindromic Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BED4EBB28A368A9000FBE7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BED4EC428A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-28 Minimum number of deletion in a string to make it a palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BED4EC628A3695E000FBE7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BFD0A0C289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-20 Longest Commom Subsequence DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFD0A0E289A833000931BB1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2AD2B128A640C4007AB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AD2BC28A6413B007AB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AD2C728A6421C007AB9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2E0BFE2894531600AE54F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30808F28A3DF1400759435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B67149928A6DE5B0074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714A428A6E8C30074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714AF28A6E9270074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714BA28A6F0640074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714C528A6FC380074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714D028A7009B0074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714DB28A705420074FD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D11428A1023E00A152EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D11F28A10A9B00A152EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D12A28A1294B00A152EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B862B2428A25CFD0089DDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954B528A38E520017503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954C028A3A7310017503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954CB28A3ACF80017503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA997C428A37358004A4821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAF9C8328A50FFC00BF5C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAF9C8E28A5105E00BF5C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC0529728992565004D8054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC052A228992E34004D8054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC052AD28993EF4004D8054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCFA8D92897DD6000363CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCFA8E42897DE2000363CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD1AC582893E2E700587611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD1AC632893E36100587611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C5F289289D9002E1797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C6D28928A1B002E1797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C782892C32D002E1797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED4EB628A368A9000FBE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED4EC128A3695E000FBE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFD0A09289A833000931BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2AD2B528A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AD2B628A640C4007AB9EB /* main.cpp */,
+			);
+			path = "Lect-39 Boolean parenthesis Recursion";
+			sourceTree = "<group>";
+		};
+		6B2AD2C028A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AD2C128A6413B007AB9EB /* main.cpp */,
+			);
+			path = "Lect-40 Boolean Parenthesis Memosized";
+			sourceTree = "<group>";
+		};
+		6B2AD2CB28A6421C007AB9EB /* Lect-41 Scrambled String Recursive */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AD2CC28A6421C007AB9EB /* main.cpp */,
+			);
+			path = "Lect-41 Scrambled String Recursive";
+			sourceTree = "<group>";
+		};
+		6B2E0C022894531600AE54F7 /* Lect-9 Count Subset with given Sum */ = {
+			isa = PBXGroup;
+			children = (
+				6B2E0C032894531600AE54F7 /* main.cpp */,
+			);
+			path = "Lect-9 Count Subset with given Sum";
+			sourceTree = "<group>";
+		};
+		6B30809328A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */ = {
+			isa = PBXGroup;
+			children = (
+				6B30809428A3DF1400759435 /* main.cpp */,
+			);
+			path = "Lect-34 Matrix chain multiplication Recursive";
+			sourceTree = "<group>";
+		};
+		6B67149D28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */ = {
+			isa = PBXGroup;
+			children = (
+				6B67149E28A6DE5B0074FD43 /* main.cpp */,
+			);
+			path = "Lect-42 Scrambled String Memoized";
+			sourceTree = "<group>";
+		};
+		6B6714A828A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714A928A6E8C30074FD43 /* main.cpp */,
+			);
+			path = "Lect-43 Egg Dropping Problem Recursion";
+			sourceTree = "<group>";
+		};
+		6B6714B328A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714B428A6E9270074FD43 /* main.cpp */,
+			);
+			path = "Lect-44 Egg Dropping Problem Memoization";
+			sourceTree = "<group>";
+		};
+		6B6714BE28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714BF28A6F0640074FD43 /* main.cpp */,
+			);
+			path = "Lect-45 Egg Dropping Problem Memoized more Optimised";
+			sourceTree = "<group>";
+		};
+		6B6714C928A6FC390074FD43 /* Lect-48 Diameter of Binary Tree DP */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714CA28A6FC390074FD43 /* main.cpp */,
+			);
+			path = "Lect-48 Diameter of Binary Tree DP";
+			sourceTree = "<group>";
+		};
+		6B6714D428A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714D528A7009B0074FD43 /* main.cpp */,
+			);
+			path = "Lect-49 Maximum Path Sum DP";
+			sourceTree = "<group>";
+		};
+		6B6714DF28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */ = {
+			isa = PBXGroup;
+			children = (
+				6B6714E028A705420074FD43 /* main.cpp */,
+			);
+			path = "Lect-50 Maximum Path sum | From leaf node to leaf node";
+			sourceTree = "<group>";
+		};
+		6B76D11828A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */ = {
+			isa = PBXGroup;
+			children = (
+				6B76D11928A1023E00A152EE /* main.cpp */,
+			);
+			path = "Lect-22 Longest Common Substring 2D DP";
+			sourceTree = "<group>";
+		};
+		6B76D12328A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				6B76D12428A10A9B00A152EE /* main.cpp */,
+			);
+			path = "Lect-23 Print Longest common Subsequence";
+			sourceTree = "<group>";
+		};
+		6B76D12E28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */ = {
+			isa = PBXGroup;
+			children = (
+				6B76D12F28A1294B00A152EE /* main.cpp */,
+			);
+			path = "Lect-24 Shortest common SuperSequence";
+			sourceTree = "<group>";
+		};
+		6B862B2828A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */ = {
+			isa = PBXGroup;
+			children = (
+				6B862B2928A25CFD0089DDC2 /* main.cpp */,
+			);
+			path = "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b";
+			sourceTree = "<group>";
+		};
+		6BA954B928A38E520017503E /* Lect-30 Longest Repeating Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				6BA954BA28A38E520017503E /* main.cpp */,
+			);
+			path = "Lect-30 Longest Repeating Subsequence";
+			sourceTree = "<group>";
+		};
+		6BA954C428A3A7310017503E /* Lect-31 Sequence Pattern Matching */ = {
+			isa = PBXGroup;
+			children = (
+				6BA954C528A3A7310017503E /* main.cpp */,
+			);
+			path = "Lect-31 Sequence Pattern Matching";
+			sourceTree = "<group>";
+		};
+		6BA954CF28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				6BA954D028A3ACF80017503E /* main.cpp */,
+			);
+			path = "Lect-32 Minimum number of insertion in a string to make it palindrome";
+			sourceTree = "<group>";
+		};
+		6BA997C828A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */ = {
+			isa = PBXGroup;
+			children = (
+				6BA997C928A37358004A4821 /* main.cpp */,
+			);
+			path = "Lect-29 Print Shortest comon SuperSequence";
+			sourceTree = "<group>";
+		};
+		6BAF9C8728A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF9C8828A50FFC00BF5C78 /* main.cpp */,
+			);
+			path = "Lect-37 Palindrome Partitioning using Memoization";
+			sourceTree = "<group>";
+		};
+		6BAF9C9228A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF9C9328A5105E00BF5C78 /* main.cpp */,
+			);
+			path = "Lect-38 Palindrome Partitioning Optimized";
+			sourceTree = "<group>";
+		};
+		6BC0529B28992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0529C28992565004D8054 /* main.cpp */,
+			);
+			path = "Lect-14 Rod cutting Problem Unbounded knapsack";
+			sourceTree = "<group>";
+		};
+		6BC052A628992E34004D8054 /* Lect-15 Coin change Problem-1 */ = {
+			isa = PBXGroup;
+			children = (
+				6BC052A728992E34004D8054 /* main.cpp */,
+			);
+			path = "Lect-15 Coin change Problem-1";
+			sourceTree = "<group>";
+		};
+		6BC052B128993EF4004D8054 /* Lect-16 Coin change problem 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6BC052B228993EF4004D8054 /* main.cpp */,
+			);
+			path = "Lect-16 Coin change problem 2";
+			sourceTree = "<group>";
+		};
+		6BCFA8DD2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFA8DE2897DD6000363CA4 /* main.cpp */,
+			);
+			path = "Lect-11 Count the number of subset with a given difference";
+			sourceTree = "<group>";
+		};
+		6BCFA8E82897DE2000363CA4 /* Lect-10 Minimum subset sum difference */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFA8E92897DE2000363CA4 /* main.cpp */,
+			);
+			path = "Lect-10 Minimum subset sum difference";
+			sourceTree = "<group>";
+		};
+		6BD1AC5C2893E2E700587611 /* Lect-7 Subset Sum problem DP */ = {
+			isa = PBXGroup;
+			children = (
+				6BD1AC5D2893E2E700587611 /* main.cpp */,
+			);
+			path = "Lect-7 Subset Sum problem DP";
+			sourceTree = "<group>";
+		};
+		6BD1AC672893E36100587611 /* Lect-8 Equal Sum Partition DP */ = {
+			isa = PBXGroup;
+			children = (
+				6BD1AC682893E36100587611 /* main.cpp */,
+			);
+			path = "Lect-8 Equal Sum Partition DP";
+			sourceTree = "<group>";
+		};
+		6BDC7C59289289D9002E1797 = {
+			isa = PBXGroup;
+			children = (
+				6BDC7C64289289D9002E1797 /* DP by ADITYA VERMA */,
+				6BDC7C7128928A1B002E1797 /* Lect-5  KnapSack 0 1 */,
+				6BD1AC5C2893E2E700587611 /* Lect-7 Subset Sum problem DP */,
+				6BD1AC672893E36100587611 /* Lect-8 Equal Sum Partition DP */,
+				6B2E0C022894531600AE54F7 /* Lect-9 Count Subset with given Sum */,
+				6BCFA8DD2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */,
+				6BCFA8E82897DE2000363CA4 /* Lect-10 Minimum subset sum difference */,
+				6BC0529B28992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */,
+				6BC052A628992E34004D8054 /* Lect-15 Coin change Problem-1 */,
+				6BC052B128993EF4004D8054 /* Lect-16 Coin change problem 2 */,
+				6BFD0A0D289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */,
+				6B76D11828A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */,
+				6B76D12328A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */,
+				6B76D12E28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */,
+				6B862B2828A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */,
+				6BED4EBA28A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */,
+				6BED4EC528A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */,
+				6BA997C828A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */,
+				6BA954B928A38E520017503E /* Lect-30 Longest Repeating Subsequence */,
+				6BA954C428A3A7310017503E /* Lect-31 Sequence Pattern Matching */,
+				6BA954CF28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */,
+				6B30809328A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */,
+				6BAF9C8728A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */,
+				6BAF9C9228A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */,
+				6B2AD2B528A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */,
+				6B2AD2C028A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */,
+				6B2AD2CB28A6421C007AB9EB /* Lect-41 Scrambled String Recursive */,
+				6B67149D28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */,
+				6B6714A828A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */,
+				6B6714B328A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */,
+				6B6714BE28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */,
+				6B6714C928A6FC390074FD43 /* Lect-48 Diameter of Binary Tree DP */,
+				6B6714D428A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */,
+				6B6714DF28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */,
+				6BDC7C63289289D9002E1797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BDC7C63289289D9002E1797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC7C62289289D9002E1797 /* DP by ADITYA VERMA */,
+				6BDC7C7028928A1B002E1797 /* Lect-5  KnapSack 0 1 */,
+				6BDC7C7B2892C32D002E1797 /* Lect-6 Equal Sum Partition Problem DP */,
+				6BD1AC5B2893E2E700587611 /* Lect-7 Subset Sum problem DP */,
+				6BD1AC662893E36100587611 /* Lect-8 Equal Sum Partition DP */,
+				6B2E0C012894531600AE54F7 /* Lect-9 Count Subset with given Sum */,
+				6BCFA8DC2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */,
+				6BCFA8E72897DE2000363CA4 /* Lect-10 Minimum subset sum difference */,
+				6BC0529A28992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */,
+				6BC052A528992E34004D8054 /* Lect-15 Coin change Problem-1 */,
+				6BC052B028993EF4004D8054 /* Lect-16 Coin change problem 2 */,
+				6BFD0A0C289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */,
+				6B76D11728A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */,
+				6B76D12228A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */,
+				6B76D12D28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */,
+				6B862B2728A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */,
+				6BED4EB928A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */,
+				6BED4EC428A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */,
+				6BA997C728A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */,
+				6BA954B828A38E520017503E /* Lect-30 Longest Repeating Subsequence */,
+				6BA954C328A3A7310017503E /* Lect-31 Sequence Pattern Matching */,
+				6BA954CE28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */,
+				6B30809228A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */,
+				6BAF9C8628A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */,
+				6BAF9C9128A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */,
+				6B2AD2B428A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */,
+				6B2AD2BF28A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */,
+				6B2AD2CA28A6421C007AB9EB /* Lect-41 Scrambled String Recursive */,
+				6B67149C28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */,
+				6B6714A728A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */,
+				6B6714B228A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */,
+				6B6714BD28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */,
+				6B6714C828A6FC380074FD43 /* Lect-48 Diameter of Binary Tree DP */,
+				6B6714D328A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */,
+				6B6714DE28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDC7C64289289D9002E1797 /* DP by ADITYA VERMA */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC7C65289289D9002E1797 /* main.cpp */,
+			);
+			path = "DP by ADITYA VERMA";
+			sourceTree = "<group>";
+		};
+		6BDC7C7128928A1B002E1797 /* Lect-5  KnapSack 0 1 */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC7C7228928A1B002E1797 /* main.cpp */,
+			);
+			path = "Lect-5  KnapSack 0 1";
+			sourceTree = "<group>";
+		};
+		6BED4EBA28A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				6BED4EBB28A368A9000FBE7C /* main.cpp */,
+			);
+			path = "Lect-26 Longest Palindromic Subsequence";
+			sourceTree = "<group>";
+		};
+		6BED4EC528A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				6BED4EC628A3695E000FBE7C /* main.cpp */,
+			);
+			path = "Lect-28 Minimum number of deletion in a string to make it a palindrome";
+			sourceTree = "<group>";
+		};
+		6BFD0A0D289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */ = {
+			isa = PBXGroup;
+			children = (
+				6BFD0A0E289A833000931BB1 /* main.cpp */,
+			);
+			path = "Lect-20 Longest Commom Subsequence DP";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2AD2B328A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AD2BA28A640C4007AB9EB /* Build configuration list for PBXNativeTarget "Lect-39 Boolean parenthesis Recursion" */;
+			buildPhases = (
+				6B2AD2B028A640C4007AB9EB /* Sources */,
+				6B2AD2B128A640C4007AB9EB /* Frameworks */,
+				6B2AD2B228A640C4007AB9EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-39 Boolean parenthesis Recursion";
+			productName = "Lect-39 Boolean parenthesis Recursion";
+			productReference = 6B2AD2B428A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B2AD2BE28A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AD2C328A6413B007AB9EB /* Build configuration list for PBXNativeTarget "Lect-40 Boolean Parenthesis Memosized" */;
+			buildPhases = (
+				6B2AD2BB28A6413B007AB9EB /* Sources */,
+				6B2AD2BC28A6413B007AB9EB /* Frameworks */,
+				6B2AD2BD28A6413B007AB9EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-40 Boolean Parenthesis Memosized";
+			productName = "Lect-40 Boolean Parenthesis Memosized";
+			productReference = 6B2AD2BF28A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B2AD2C928A6421C007AB9EB /* Lect-41 Scrambled String Recursive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AD2CE28A6421C007AB9EB /* Build configuration list for PBXNativeTarget "Lect-41 Scrambled String Recursive" */;
+			buildPhases = (
+				6B2AD2C628A6421C007AB9EB /* Sources */,
+				6B2AD2C728A6421C007AB9EB /* Frameworks */,
+				6B2AD2C828A6421C007AB9EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-41 Scrambled String Recursive";
+			productName = "Lect-41 Scrambled String Recursive";
+			productReference = 6B2AD2CA28A6421C007AB9EB /* Lect-41 Scrambled String Recursive */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B2E0C002894531600AE54F7 /* Lect-9 Count Subset with given Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2E0C072894531600AE54F7 /* Build configuration list for PBXNativeTarget "Lect-9 Count Subset with given Sum" */;
+			buildPhases = (
+				6B2E0BFD2894531600AE54F7 /* Sources */,
+				6B2E0BFE2894531600AE54F7 /* Frameworks */,
+				6B2E0BFF2894531600AE54F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-9 Count Subset with given Sum";
+			productName = "Lect-9 Count Subset with given Sum";
+			productReference = 6B2E0C012894531600AE54F7 /* Lect-9 Count Subset with given Sum */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B30809128A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B30809828A3DF1400759435 /* Build configuration list for PBXNativeTarget "Lect-34 Matrix chain multiplication Recursive" */;
+			buildPhases = (
+				6B30808E28A3DF1400759435 /* Sources */,
+				6B30808F28A3DF1400759435 /* Frameworks */,
+				6B30809028A3DF1400759435 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-34 Matrix chain multiplication Recursive";
+			productName = "Lect-34 Matrix chain multiplication Recursive";
+			productReference = 6B30809228A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B67149B28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714A228A6DE5B0074FD43 /* Build configuration list for PBXNativeTarget "Lect-42 Scrambled String Memoized" */;
+			buildPhases = (
+				6B67149828A6DE5B0074FD43 /* Sources */,
+				6B67149928A6DE5B0074FD43 /* Frameworks */,
+				6B67149A28A6DE5B0074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-42 Scrambled String Memoized";
+			productName = "Lect-42 Scrambled String Memoized";
+			productReference = 6B67149C28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714A628A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714AB28A6E8C30074FD43 /* Build configuration list for PBXNativeTarget "Lect-43 Egg Dropping Problem Recursion" */;
+			buildPhases = (
+				6B6714A328A6E8C30074FD43 /* Sources */,
+				6B6714A428A6E8C30074FD43 /* Frameworks */,
+				6B6714A528A6E8C30074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-43 Egg Dropping Problem Recursion";
+			productName = "Lect-43 Egg Dropping Problem Recursion";
+			productReference = 6B6714A728A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714B128A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714B628A6E9270074FD43 /* Build configuration list for PBXNativeTarget "Lect-44 Egg Dropping Problem Memoization" */;
+			buildPhases = (
+				6B6714AE28A6E9270074FD43 /* Sources */,
+				6B6714AF28A6E9270074FD43 /* Frameworks */,
+				6B6714B028A6E9270074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-44 Egg Dropping Problem Memoization";
+			productName = "Lect-44 Egg Dropping Problem Memoization";
+			productReference = 6B6714B228A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714BC28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714C128A6F0640074FD43 /* Build configuration list for PBXNativeTarget "Lect-45 Egg Dropping Problem Memoized more Optimised" */;
+			buildPhases = (
+				6B6714B928A6F0640074FD43 /* Sources */,
+				6B6714BA28A6F0640074FD43 /* Frameworks */,
+				6B6714BB28A6F0640074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-45 Egg Dropping Problem Memoized more Optimised";
+			productName = "Lect-45 Egg Dropping Problem Memoized more Optimised";
+			productReference = 6B6714BD28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714C728A6FC380074FD43 /* Lect-48 Diameter of Binary Tree DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714CC28A6FC390074FD43 /* Build configuration list for PBXNativeTarget "Lect-48 Diameter of Binary Tree DP" */;
+			buildPhases = (
+				6B6714C428A6FC380074FD43 /* Sources */,
+				6B6714C528A6FC380074FD43 /* Frameworks */,
+				6B6714C628A6FC380074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-48 Diameter of Binary Tree DP";
+			productName = "Lect-48 Diameter of Binary Tree DP";
+			productReference = 6B6714C828A6FC380074FD43 /* Lect-48 Diameter of Binary Tree DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714D228A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714D728A7009B0074FD43 /* Build configuration list for PBXNativeTarget "Lect-49 Maximum Path Sum DP" */;
+			buildPhases = (
+				6B6714CF28A7009B0074FD43 /* Sources */,
+				6B6714D028A7009B0074FD43 /* Frameworks */,
+				6B6714D128A7009B0074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-49 Maximum Path Sum DP";
+			productName = "Lect-49 Maximum Path Sum DP";
+			productReference = 6B6714D328A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B6714DD28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6714E228A705420074FD43 /* Build configuration list for PBXNativeTarget "Lect-50 Maximum Path sum | From leaf node to leaf node" */;
+			buildPhases = (
+				6B6714DA28A705420074FD43 /* Sources */,
+				6B6714DB28A705420074FD43 /* Frameworks */,
+				6B6714DC28A705420074FD43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-50 Maximum Path sum | From leaf node to leaf node";
+			productName = "Lect-50 Maximum Path sum | From leaf node to leaf node";
+			productReference = 6B6714DE28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B76D11628A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B76D11D28A1023E00A152EE /* Build configuration list for PBXNativeTarget "Lect-22 Longest Common Substring 2D DP" */;
+			buildPhases = (
+				6B76D11328A1023E00A152EE /* Sources */,
+				6B76D11428A1023E00A152EE /* Frameworks */,
+				6B76D11528A1023E00A152EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-22 Longest Common Substring 2D DP";
+			productName = "Lect-22 Longest Common Substring 2D DP";
+			productReference = 6B76D11728A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B76D12128A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B76D12628A10A9B00A152EE /* Build configuration list for PBXNativeTarget "Lect-23 Print Longest common Subsequence" */;
+			buildPhases = (
+				6B76D11E28A10A9B00A152EE /* Sources */,
+				6B76D11F28A10A9B00A152EE /* Frameworks */,
+				6B76D12028A10A9B00A152EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-23 Print Longest common Subsequence";
+			productName = "Lect-23 Print Longest common Subsequence";
+			productReference = 6B76D12228A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B76D12C28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B76D13128A1294B00A152EE /* Build configuration list for PBXNativeTarget "Lect-24 Shortest common SuperSequence" */;
+			buildPhases = (
+				6B76D12928A1294B00A152EE /* Sources */,
+				6B76D12A28A1294B00A152EE /* Frameworks */,
+				6B76D12B28A1294B00A152EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-24 Shortest common SuperSequence";
+			productName = "Lect-24 Shortest common SuperSequence";
+			productReference = 6B76D12D28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B862B2628A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B862B2D28A25CFD0089DDC2 /* Build configuration list for PBXNativeTarget "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b" */;
+			buildPhases = (
+				6B862B2328A25CFD0089DDC2 /* Sources */,
+				6B862B2428A25CFD0089DDC2 /* Frameworks */,
+				6B862B2528A25CFD0089DDC2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b";
+			productName = "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b";
+			productReference = 6B862B2728A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BA954B728A38E520017503E /* Lect-30 Longest Repeating Subsequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA954BE28A38E520017503E /* Build configuration list for PBXNativeTarget "Lect-30 Longest Repeating Subsequence" */;
+			buildPhases = (
+				6BA954B428A38E520017503E /* Sources */,
+				6BA954B528A38E520017503E /* Frameworks */,
+				6BA954B628A38E520017503E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-30 Longest Repeating Subsequence";
+			productName = "Lect-30 Longest Repeating Subsequence";
+			productReference = 6BA954B828A38E520017503E /* Lect-30 Longest Repeating Subsequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BA954C228A3A7310017503E /* Lect-31 Sequence Pattern Matching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA954C728A3A7310017503E /* Build configuration list for PBXNativeTarget "Lect-31 Sequence Pattern Matching" */;
+			buildPhases = (
+				6BA954BF28A3A7310017503E /* Sources */,
+				6BA954C028A3A7310017503E /* Frameworks */,
+				6BA954C128A3A7310017503E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-31 Sequence Pattern Matching";
+			productName = "Lect-31 Sequence Pattern Matching";
+			productReference = 6BA954C328A3A7310017503E /* Lect-31 Sequence Pattern Matching */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BA954CD28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA954D228A3ACF80017503E /* Build configuration list for PBXNativeTarget "Lect-32 Minimum number of insertion in a string to make it palindrome" */;
+			buildPhases = (
+				6BA954CA28A3ACF80017503E /* Sources */,
+				6BA954CB28A3ACF80017503E /* Frameworks */,
+				6BA954CC28A3ACF80017503E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-32 Minimum number of insertion in a string to make it palindrome";
+			productName = "Lect-32 Minimum number of insertion in a string to make it palindrome";
+			productReference = 6BA954CE28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BA997C628A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA997CD28A37358004A4821 /* Build configuration list for PBXNativeTarget "Lect-29 Print Shortest comon SuperSequence" */;
+			buildPhases = (
+				6BA997C328A37358004A4821 /* Sources */,
+				6BA997C428A37358004A4821 /* Frameworks */,
+				6BA997C528A37358004A4821 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-29 Print Shortest comon SuperSequence";
+			productName = "Lect-29 Print Shortest comon SuperSequence";
+			productReference = 6BA997C728A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BAF9C8528A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAF9C8C28A50FFC00BF5C78 /* Build configuration list for PBXNativeTarget "Lect-37 Palindrome Partitioning using Memoization" */;
+			buildPhases = (
+				6BAF9C8228A50FFC00BF5C78 /* Sources */,
+				6BAF9C8328A50FFC00BF5C78 /* Frameworks */,
+				6BAF9C8428A50FFC00BF5C78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-37 Palindrome Partitioning using Memoization";
+			productName = "Lect-37 Palindrome Partitioning using Memoization";
+			productReference = 6BAF9C8628A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BAF9C9028A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAF9C9528A5105E00BF5C78 /* Build configuration list for PBXNativeTarget "Lect-38 Palindrome Partitioning Optimized" */;
+			buildPhases = (
+				6BAF9C8D28A5105E00BF5C78 /* Sources */,
+				6BAF9C8E28A5105E00BF5C78 /* Frameworks */,
+				6BAF9C8F28A5105E00BF5C78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-38 Palindrome Partitioning Optimized";
+			productName = "Lect-38 Palindrome Partitioning Optimized";
+			productReference = 6BAF9C9128A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BC0529928992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC052A028992565004D8054 /* Build configuration list for PBXNativeTarget "Lect-14 Rod cutting Problem Unbounded knapsack" */;
+			buildPhases = (
+				6BC0529628992565004D8054 /* Sources */,
+				6BC0529728992565004D8054 /* Frameworks */,
+				6BC0529828992565004D8054 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-14 Rod cutting Problem Unbounded knapsack";
+			productName = "Lect-14 Rod cutting Problem Unbounded knapsack";
+			productReference = 6BC0529A28992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BC052A428992E34004D8054 /* Lect-15 Coin change Problem-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC052A928992E34004D8054 /* Build configuration list for PBXNativeTarget "Lect-15 Coin change Problem-1" */;
+			buildPhases = (
+				6BC052A128992E34004D8054 /* Sources */,
+				6BC052A228992E34004D8054 /* Frameworks */,
+				6BC052A328992E34004D8054 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-15 Coin change Problem-1";
+			productName = "Lect-15 Coin change Problem-1";
+			productReference = 6BC052A528992E34004D8054 /* Lect-15 Coin change Problem-1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BC052AF28993EF4004D8054 /* Lect-16 Coin change problem 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC052B428993EF4004D8054 /* Build configuration list for PBXNativeTarget "Lect-16 Coin change problem 2" */;
+			buildPhases = (
+				6BC052AC28993EF4004D8054 /* Sources */,
+				6BC052AD28993EF4004D8054 /* Frameworks */,
+				6BC052AE28993EF4004D8054 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-16 Coin change problem 2";
+			productName = "Lect-16 Coin change problem 2";
+			productReference = 6BC052B028993EF4004D8054 /* Lect-16 Coin change problem 2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BCFA8DB2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCFA8E22897DD6000363CA4 /* Build configuration list for PBXNativeTarget "Lect-11 Count the number of subset with a given difference" */;
+			buildPhases = (
+				6BCFA8D82897DD6000363CA4 /* Sources */,
+				6BCFA8D92897DD6000363CA4 /* Frameworks */,
+				6BCFA8DA2897DD6000363CA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-11 Count the number of subset with a given difference";
+			productName = "Lect-11 Count the number of subset with a given difference";
+			productReference = 6BCFA8DC2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BCFA8E62897DE2000363CA4 /* Lect-10 Minimum subset sum difference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCFA8EB2897DE2000363CA4 /* Build configuration list for PBXNativeTarget "Lect-10 Minimum subset sum difference" */;
+			buildPhases = (
+				6BCFA8E32897DE2000363CA4 /* Sources */,
+				6BCFA8E42897DE2000363CA4 /* Frameworks */,
+				6BCFA8E52897DE2000363CA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-10 Minimum subset sum difference";
+			productName = "Lect-10 Minimum subset sum difference";
+			productReference = 6BCFA8E72897DE2000363CA4 /* Lect-10 Minimum subset sum difference */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BD1AC5A2893E2E700587611 /* Lect-7 Subset Sum problem DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD1AC612893E2E700587611 /* Build configuration list for PBXNativeTarget "Lect-7 Subset Sum problem DP" */;
+			buildPhases = (
+				6BD1AC572893E2E700587611 /* Sources */,
+				6BD1AC582893E2E700587611 /* Frameworks */,
+				6BD1AC592893E2E700587611 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-7 Subset Sum problem DP";
+			productName = "Lect-7 Subset Sum problem DP";
+			productReference = 6BD1AC5B2893E2E700587611 /* Lect-7 Subset Sum problem DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BD1AC652893E36100587611 /* Lect-8 Equal Sum Partition DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD1AC6A2893E36100587611 /* Build configuration list for PBXNativeTarget "Lect-8 Equal Sum Partition DP" */;
+			buildPhases = (
+				6BD1AC622893E36100587611 /* Sources */,
+				6BD1AC632893E36100587611 /* Frameworks */,
+				6BD1AC642893E36100587611 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-8 Equal Sum Partition DP";
+			productName = "Lect-8 Equal Sum Partition DP";
+			productReference = 6BD1AC662893E36100587611 /* Lect-8 Equal Sum Partition DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BDC7C61289289D9002E1797 /* DP by ADITYA VERMA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC7C69289289D9002E1797 /* Build configuration list for PBXNativeTarget "DP by ADITYA VERMA" */;
+			buildPhases = (
+				6BDC7C5E289289D9002E1797 /* Sources */,
+				6BDC7C5F289289D9002E1797 /* Frameworks */,
+				6BDC7C60289289D9002E1797 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DP by ADITYA VERMA";
+			productName = "DP by ADITYA VERMA";
+			productReference = 6BDC7C62289289D9002E1797 /* DP by ADITYA VERMA */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BDC7C6F28928A1B002E1797 /* Lect-5  KnapSack 0 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC7C7428928A1B002E1797 /* Build configuration list for PBXNativeTarget "Lect-5  KnapSack 0 1" */;
+			buildPhases = (
+				6BDC7C6C28928A1B002E1797 /* Sources */,
+				6BDC7C6D28928A1B002E1797 /* Frameworks */,
+				6BDC7C6E28928A1B002E1797 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-5  KnapSack 0 1";
+			productName = "Lect-5  KnapSack 0 1";
+			productReference = 6BDC7C7028928A1B002E1797 /* Lect-5  KnapSack 0 1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BDC7C7A2892C32D002E1797 /* Lect-6 Equal Sum Partition Problem DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC7C7F2892C32D002E1797 /* Build configuration list for PBXNativeTarget "Lect-6 Equal Sum Partition Problem DP" */;
+			buildPhases = (
+				6BDC7C772892C32D002E1797 /* Sources */,
+				6BDC7C782892C32D002E1797 /* Frameworks */,
+				6BDC7C792892C32D002E1797 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-6 Equal Sum Partition Problem DP";
+			productName = "Lect-6 Equal Sum Partition Problem DP";
+			productReference = 6BDC7C7B2892C32D002E1797 /* Lect-6 Equal Sum Partition Problem DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BED4EB828A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BED4EBF28A368A9000FBE7C /* Build configuration list for PBXNativeTarget "Lect-26 Longest Palindromic Subsequence" */;
+			buildPhases = (
+				6BED4EB528A368A9000FBE7C /* Sources */,
+				6BED4EB628A368A9000FBE7C /* Frameworks */,
+				6BED4EB728A368A9000FBE7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-26 Longest Palindromic Subsequence";
+			productName = "Lect-26 Longest Palindromic Subsequence";
+			productReference = 6BED4EB928A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BED4EC328A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BED4EC828A3695E000FBE7C /* Build configuration list for PBXNativeTarget "Lect-28 Minimum number of deletion in a string to make it a palindrome" */;
+			buildPhases = (
+				6BED4EC028A3695E000FBE7C /* Sources */,
+				6BED4EC128A3695E000FBE7C /* Frameworks */,
+				6BED4EC228A3695E000FBE7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-28 Minimum number of deletion in a string to make it a palindrome";
+			productName = "Lect-28 Minimum number of deletion in a string to make it a palindrome";
+			productReference = 6BED4EC428A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BFD0A0B289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFD0A12289A833000931BB1 /* Build configuration list for PBXNativeTarget "Lect-20 Longest Commom Subsequence DP" */;
+			buildPhases = (
+				6BFD0A08289A833000931BB1 /* Sources */,
+				6BFD0A09289A833000931BB1 /* Frameworks */,
+				6BFD0A0A289A833000931BB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-20 Longest Commom Subsequence DP";
+			productName = "Lect-20 Longest Commom Subsequence DP";
+			productReference = 6BFD0A0C289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDC7C5A289289D9002E1797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6B2AD2B328A640C4007AB9EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B2AD2BE28A6413B007AB9EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B2AD2C928A6421C007AB9EB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B2E0C002894531600AE54F7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B30809128A3DF1400759435 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B67149B28A6DE5B0074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714A628A6E8C30074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714B128A6E9270074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714BC28A6F0640074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714C728A6FC380074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714D228A7009B0074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B6714DD28A705420074FD43 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B76D11628A1023E00A152EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B76D12128A10A9B00A152EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B76D12C28A1294B00A152EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B862B2628A25CFD0089DDC2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BA954B728A38E520017503E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BA954C228A3A7310017503E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BA954CD28A3ACF80017503E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BA997C628A37358004A4821 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BAF9C8528A50FFC00BF5C78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BAF9C9028A5105E00BF5C78 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BC0529928992565004D8054 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BC052A428992E34004D8054 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BC052AF28993EF4004D8054 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BCFA8DB2897DD6000363CA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BCFA8E62897DE2000363CA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BD1AC5A2893E2E700587611 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BD1AC652893E36100587611 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BDC7C61289289D9002E1797 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BDC7C6F28928A1B002E1797 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BDC7C7A2892C32D002E1797 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BED4EB828A368A9000FBE7C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BED4EC328A3695E000FBE7C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6BFD0A0B289A833000931BB1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BDC7C5D289289D9002E1797 /* Build configuration list for PBXProject "DP by ADITYA VERMA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BDC7C59289289D9002E1797;
+			productRefGroup = 6BDC7C63289289D9002E1797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDC7C61289289D9002E1797 /* DP by ADITYA VERMA */,
+				6BDC7C6F28928A1B002E1797 /* Lect-5  KnapSack 0 1 */,
+				6BDC7C7A2892C32D002E1797 /* Lect-6 Equal Sum Partition Problem DP */,
+				6BD1AC5A2893E2E700587611 /* Lect-7 Subset Sum problem DP */,
+				6BD1AC652893E36100587611 /* Lect-8 Equal Sum Partition DP */,
+				6B2E0C002894531600AE54F7 /* Lect-9 Count Subset with given Sum */,
+				6BCFA8DB2897DD6000363CA4 /* Lect-11 Count the number of subset with a given difference */,
+				6BCFA8E62897DE2000363CA4 /* Lect-10 Minimum subset sum difference */,
+				6BC0529928992565004D8054 /* Lect-14 Rod cutting Problem Unbounded knapsack */,
+				6BC052A428992E34004D8054 /* Lect-15 Coin change Problem-1 */,
+				6BC052AF28993EF4004D8054 /* Lect-16 Coin change problem 2 */,
+				6BFD0A0B289A833000931BB1 /* Lect-20 Longest Commom Subsequence DP */,
+				6B76D11628A1023E00A152EE /* Lect-22 Longest Common Substring 2D DP */,
+				6B76D12128A10A9B00A152EE /* Lect-23 Print Longest common Subsequence */,
+				6B76D12C28A1294B00A152EE /* Lect-24 Shortest common SuperSequence */,
+				6B862B2628A25CFD0089DDC2 /* Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b */,
+				6BED4EB828A368A9000FBE7C /* Lect-26 Longest Palindromic Subsequence */,
+				6BED4EC328A3695E000FBE7C /* Lect-28 Minimum number of deletion in a string to make it a palindrome */,
+				6BA997C628A37358004A4821 /* Lect-29 Print Shortest comon SuperSequence */,
+				6BA954B728A38E520017503E /* Lect-30 Longest Repeating Subsequence */,
+				6BA954C228A3A7310017503E /* Lect-31 Sequence Pattern Matching */,
+				6BA954CD28A3ACF80017503E /* Lect-32 Minimum number of insertion in a string to make it palindrome */,
+				6B30809128A3DF1400759435 /* Lect-34 Matrix chain multiplication Recursive */,
+				6BAF9C8528A50FFC00BF5C78 /* Lect-37 Palindrome Partitioning using Memoization */,
+				6BAF9C9028A5105E00BF5C78 /* Lect-38 Palindrome Partitioning Optimized */,
+				6B2AD2B328A640C4007AB9EB /* Lect-39 Boolean parenthesis Recursion */,
+				6B2AD2BE28A6413B007AB9EB /* Lect-40 Boolean Parenthesis Memosized */,
+				6B2AD2C928A6421C007AB9EB /* Lect-41 Scrambled String Recursive */,
+				6B67149B28A6DE5B0074FD43 /* Lect-42 Scrambled String Memoized */,
+				6B6714A628A6E8C30074FD43 /* Lect-43 Egg Dropping Problem Recursion */,
+				6B6714B128A6E9270074FD43 /* Lect-44 Egg Dropping Problem Memoization */,
+				6B6714BC28A6F0640074FD43 /* Lect-45 Egg Dropping Problem Memoized more Optimised */,
+				6B6714C728A6FC380074FD43 /* Lect-48 Diameter of Binary Tree DP */,
+				6B6714D228A7009B0074FD43 /* Lect-49 Maximum Path Sum DP */,
+				6B6714DD28A705420074FD43 /* Lect-50 Maximum Path sum | From leaf node to leaf node */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2AD2B028A640C4007AB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2AD2B728A640C4007AB9EB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AD2BB28A6413B007AB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2AD2C228A6413B007AB9EB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AD2C628A6421C007AB9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2AD2CD28A6421C007AB9EB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2E0BFD2894531600AE54F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2E0C042894531600AE54F7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30808E28A3DF1400759435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B30809528A3DF1400759435 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B67149828A6DE5B0074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B67149F28A6DE5B0074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714A328A6E8C30074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714AA28A6E8C30074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714AE28A6E9270074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714B528A6E9270074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714B928A6F0640074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714C028A6F0640074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714C428A6FC380074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714CB28A6FC390074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714CF28A7009B0074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714D628A7009B0074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6714DA28A705420074FD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6714E128A705420074FD43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D11328A1023E00A152EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B76D11A28A1023E00A152EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D11E28A10A9B00A152EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B76D12528A10A9B00A152EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B76D12928A1294B00A152EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B76D13028A1294B00A152EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B862B2328A25CFD0089DDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B862B2A28A25CFD0089DDC2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954B428A38E520017503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA954BB28A38E520017503E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954BF28A3A7310017503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA954C628A3A7310017503E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA954CA28A3ACF80017503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA954D128A3ACF80017503E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA997C328A37358004A4821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA997CA28A37358004A4821 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAF9C8228A50FFC00BF5C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAF9C8928A50FFC00BF5C78 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAF9C8D28A5105E00BF5C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAF9C9428A5105E00BF5C78 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC0529628992565004D8054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0529D28992565004D8054 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC052A128992E34004D8054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC052A828992E34004D8054 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC052AC28993EF4004D8054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC052B328993EF4004D8054 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCFA8D82897DD6000363CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCFA8DF2897DD6000363CA4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCFA8E32897DE2000363CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCFA8EA2897DE2000363CA4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD1AC572893E2E700587611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD1AC5E2893E2E700587611 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD1AC622893E36100587611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD1AC692893E36100587611 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C5E289289D9002E1797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDC7C66289289D9002E1797 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C6C28928A1B002E1797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDC7C7328928A1B002E1797 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC7C772892C32D002E1797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED4EB528A368A9000FBE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BED4EBC28A368A9000FBE7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BED4EC028A3695E000FBE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BED4EC728A3695E000FBE7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFD0A08289A833000931BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFD0A0F289A833000931BB1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B2AD2B828A640C4007AB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B2AD2B928A640C4007AB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B2AD2C428A6413B007AB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B2AD2C528A6413B007AB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B2AD2CF28A6421C007AB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B2AD2D028A6421C007AB9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B2E0C052894531600AE54F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B2E0C062894531600AE54F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B30809628A3DF1400759435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B30809728A3DF1400759435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714A028A6DE5B0074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714A128A6DE5B0074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714AC28A6E8C30074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714AD28A6E8C30074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714B728A6E9270074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714B828A6E9270074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714C228A6F0640074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714C328A6F0640074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714CD28A6FC390074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714CE28A6FC390074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714D828A7009B0074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714D928A7009B0074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B6714E328A705420074FD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6714E428A705420074FD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B76D11B28A1023E00A152EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B76D11C28A1023E00A152EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B76D12728A10A9B00A152EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B76D12828A10A9B00A152EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B76D13228A1294B00A152EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B76D13328A1294B00A152EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B862B2B28A25CFD0089DDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B862B2C28A25CFD0089DDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BA954BC28A38E520017503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA954BD28A38E520017503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BA954C828A3A7310017503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA954C928A3A7310017503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BA954D328A3ACF80017503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA954D428A3ACF80017503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BA997CB28A37358004A4821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA997CC28A37358004A4821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BAF9C8A28A50FFC00BF5C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BAF9C8B28A50FFC00BF5C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BAF9C9628A5105E00BF5C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BAF9C9728A5105E00BF5C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BC0529E28992565004D8054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BC0529F28992565004D8054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BC052AA28992E34004D8054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BC052AB28992E34004D8054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BC052B528993EF4004D8054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BC052B628993EF4004D8054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BCFA8E02897DD6000363CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BCFA8E12897DD6000363CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BCFA8EC2897DE2000363CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BCFA8ED2897DE2000363CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BD1AC5F2893E2E700587611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BD1AC602893E2E700587611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BD1AC6B2893E36100587611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BD1AC6C2893E36100587611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BDC7C67289289D9002E1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BDC7C68289289D9002E1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BDC7C6A289289D9002E1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BDC7C6B289289D9002E1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BDC7C7528928A1B002E1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BDC7C7628928A1B002E1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BDC7C802892C32D002E1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BDC7C812892C32D002E1797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BED4EBD28A368A9000FBE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BED4EBE28A368A9000FBE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BED4EC928A3695E000FBE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BED4ECA28A3695E000FBE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BFD0A10289A833000931BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BFD0A11289A833000931BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B2AD2BA28A640C4007AB9EB /* Build configuration list for PBXNativeTarget "Lect-39 Boolean parenthesis Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AD2B828A640C4007AB9EB /* Debug */,
+				6B2AD2B928A640C4007AB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2AD2C328A6413B007AB9EB /* Build configuration list for PBXNativeTarget "Lect-40 Boolean Parenthesis Memosized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AD2C428A6413B007AB9EB /* Debug */,
+				6B2AD2C528A6413B007AB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2AD2CE28A6421C007AB9EB /* Build configuration list for PBXNativeTarget "Lect-41 Scrambled String Recursive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AD2CF28A6421C007AB9EB /* Debug */,
+				6B2AD2D028A6421C007AB9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2E0C072894531600AE54F7 /* Build configuration list for PBXNativeTarget "Lect-9 Count Subset with given Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2E0C052894531600AE54F7 /* Debug */,
+				6B2E0C062894531600AE54F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B30809828A3DF1400759435 /* Build configuration list for PBXNativeTarget "Lect-34 Matrix chain multiplication Recursive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B30809628A3DF1400759435 /* Debug */,
+				6B30809728A3DF1400759435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714A228A6DE5B0074FD43 /* Build configuration list for PBXNativeTarget "Lect-42 Scrambled String Memoized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714A028A6DE5B0074FD43 /* Debug */,
+				6B6714A128A6DE5B0074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714AB28A6E8C30074FD43 /* Build configuration list for PBXNativeTarget "Lect-43 Egg Dropping Problem Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714AC28A6E8C30074FD43 /* Debug */,
+				6B6714AD28A6E8C30074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714B628A6E9270074FD43 /* Build configuration list for PBXNativeTarget "Lect-44 Egg Dropping Problem Memoization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714B728A6E9270074FD43 /* Debug */,
+				6B6714B828A6E9270074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714C128A6F0640074FD43 /* Build configuration list for PBXNativeTarget "Lect-45 Egg Dropping Problem Memoized more Optimised" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714C228A6F0640074FD43 /* Debug */,
+				6B6714C328A6F0640074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714CC28A6FC390074FD43 /* Build configuration list for PBXNativeTarget "Lect-48 Diameter of Binary Tree DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714CD28A6FC390074FD43 /* Debug */,
+				6B6714CE28A6FC390074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714D728A7009B0074FD43 /* Build configuration list for PBXNativeTarget "Lect-49 Maximum Path Sum DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714D828A7009B0074FD43 /* Debug */,
+				6B6714D928A7009B0074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6714E228A705420074FD43 /* Build configuration list for PBXNativeTarget "Lect-50 Maximum Path sum | From leaf node to leaf node" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6714E328A705420074FD43 /* Debug */,
+				6B6714E428A705420074FD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B76D11D28A1023E00A152EE /* Build configuration list for PBXNativeTarget "Lect-22 Longest Common Substring 2D DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B76D11B28A1023E00A152EE /* Debug */,
+				6B76D11C28A1023E00A152EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B76D12628A10A9B00A152EE /* Build configuration list for PBXNativeTarget "Lect-23 Print Longest common Subsequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B76D12728A10A9B00A152EE /* Debug */,
+				6B76D12828A10A9B00A152EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B76D13128A1294B00A152EE /* Build configuration list for PBXNativeTarget "Lect-24 Shortest common SuperSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B76D13228A1294B00A152EE /* Debug */,
+				6B76D13328A1294B00A152EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B862B2D28A25CFD0089DDC2 /* Build configuration list for PBXNativeTarget "Lect-25  Minimum Number of Insertion and Deletion to convert String a to String b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B862B2B28A25CFD0089DDC2 /* Debug */,
+				6B862B2C28A25CFD0089DDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA954BE28A38E520017503E /* Build configuration list for PBXNativeTarget "Lect-30 Longest Repeating Subsequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA954BC28A38E520017503E /* Debug */,
+				6BA954BD28A38E520017503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA954C728A3A7310017503E /* Build configuration list for PBXNativeTarget "Lect-31 Sequence Pattern Matching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA954C828A3A7310017503E /* Debug */,
+				6BA954C928A3A7310017503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA954D228A3ACF80017503E /* Build configuration list for PBXNativeTarget "Lect-32 Minimum number of insertion in a string to make it palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA954D328A3ACF80017503E /* Debug */,
+				6BA954D428A3ACF80017503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA997CD28A37358004A4821 /* Build configuration list for PBXNativeTarget "Lect-29 Print Shortest comon SuperSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA997CB28A37358004A4821 /* Debug */,
+				6BA997CC28A37358004A4821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAF9C8C28A50FFC00BF5C78 /* Build configuration list for PBXNativeTarget "Lect-37 Palindrome Partitioning using Memoization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAF9C8A28A50FFC00BF5C78 /* Debug */,
+				6BAF9C8B28A50FFC00BF5C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAF9C9528A5105E00BF5C78 /* Build configuration list for PBXNativeTarget "Lect-38 Palindrome Partitioning Optimized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAF9C9628A5105E00BF5C78 /* Debug */,
+				6BAF9C9728A5105E00BF5C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC052A028992565004D8054 /* Build configuration list for PBXNativeTarget "Lect-14 Rod cutting Problem Unbounded knapsack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC0529E28992565004D8054 /* Debug */,
+				6BC0529F28992565004D8054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC052A928992E34004D8054 /* Build configuration list for PBXNativeTarget "Lect-15 Coin change Problem-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC052AA28992E34004D8054 /* Debug */,
+				6BC052AB28992E34004D8054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC052B428993EF4004D8054 /* Build configuration list for PBXNativeTarget "Lect-16 Coin change problem 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC052B528993EF4004D8054 /* Debug */,
+				6BC052B628993EF4004D8054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCFA8E22897DD6000363CA4 /* Build configuration list for PBXNativeTarget "Lect-11 Count the number of subset with a given difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCFA8E02897DD6000363CA4 /* Debug */,
+				6BCFA8E12897DD6000363CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCFA8EB2897DE2000363CA4 /* Build configuration list for PBXNativeTarget "Lect-10 Minimum subset sum difference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCFA8EC2897DE2000363CA4 /* Debug */,
+				6BCFA8ED2897DE2000363CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD1AC612893E2E700587611 /* Build configuration list for PBXNativeTarget "Lect-7 Subset Sum problem DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD1AC5F2893E2E700587611 /* Debug */,
+				6BD1AC602893E2E700587611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD1AC6A2893E36100587611 /* Build configuration list for PBXNativeTarget "Lect-8 Equal Sum Partition DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD1AC6B2893E36100587611 /* Debug */,
+				6BD1AC6C2893E36100587611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC7C5D289289D9002E1797 /* Build configuration list for PBXProject "DP by ADITYA VERMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC7C67289289D9002E1797 /* Debug */,
+				6BDC7C68289289D9002E1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC7C69289289D9002E1797 /* Build configuration list for PBXNativeTarget "DP by ADITYA VERMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC7C6A289289D9002E1797 /* Debug */,
+				6BDC7C6B289289D9002E1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC7C7428928A1B002E1797 /* Build configuration list for PBXNativeTarget "Lect-5  KnapSack 0 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC7C7528928A1B002E1797 /* Debug */,
+				6BDC7C7628928A1B002E1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC7C7F2892C32D002E1797 /* Build configuration list for PBXNativeTarget "Lect-6 Equal Sum Partition Problem DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC7C802892C32D002E1797 /* Debug */,
+				6BDC7C812892C32D002E1797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BED4EBF28A368A9000FBE7C /* Build configuration list for PBXNativeTarget "Lect-26 Longest Palindromic Subsequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BED4EBD28A368A9000FBE7C /* Debug */,
+				6BED4EBE28A368A9000FBE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BED4EC828A3695E000FBE7C /* Build configuration list for PBXNativeTarget "Lect-28 Minimum number of deletion in a string to make it a palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BED4EC928A3695E000FBE7C /* Debug */,
+				6BED4ECA28A3695E000FBE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFD0A12289A833000931BB1 /* Build configuration list for PBXNativeTarget "Lect-20 Longest Commom Subsequence DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFD0A10289A833000931BB1 /* Debug */,
+				6BFD0A11289A833000931BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDC7C5A289289D9002E1797 /* Project object */;
+}
