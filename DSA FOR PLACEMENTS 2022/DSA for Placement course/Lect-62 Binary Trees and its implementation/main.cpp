@@ -16,7 +16,8 @@ public:
     node* left;
     node* right;
     
-    
+   
+    // Constructor
     node(int d){
         this->data = d;
         this->left = NULL;
@@ -24,7 +25,7 @@ public:
     }
     
 };
-// Constructor
+// Function which create Tree
 node* buildTree(node* root) {
     
     cout<<"Enter the data: "<<endl;
