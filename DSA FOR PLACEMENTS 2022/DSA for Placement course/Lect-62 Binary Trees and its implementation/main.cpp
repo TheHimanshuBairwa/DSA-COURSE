@@ -45,6 +45,7 @@ node* buildTree(node* root) {
 }
 
 // Method of printint tree data in Tree type Structure
+// Level order Traversal is also known as Breadth First Search
 void levelOrderTraversal(node* root){
     queue<node*> q;
     q.push(root);
