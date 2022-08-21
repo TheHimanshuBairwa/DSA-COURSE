@@ -62,8 +62,8 @@ int main(int argc, const char * argv[]) {
              // direction chanhge from left to right  to right to left
                  leftToright = !leftToright;
                  
-                 // storing ans in result
-                 for(auto i:ans){
+                 // storing ans in result               // if they want ans in vector<vector<int>> result form then dont do for(auto) 
+                 for(auto i:ans){                       // directly do result.push_back(ans),  and intialize result as vector<vector<int>> result;
                      result.push_back(i);
                  }
              }
