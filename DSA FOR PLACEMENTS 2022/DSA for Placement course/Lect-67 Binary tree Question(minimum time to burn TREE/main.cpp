@@ -91,6 +91,7 @@ int main(int argc, const char * argv[]) {
                    visited[front->right] = true;
                }
                
+               // queue me uss time pop karne ke baad jo jo front ayenge unka parent check ho raha hai nakii root node ka
                if(nodeToParent[front] && !visited[nodeToParent[front]]){
                    flag = 1;
                    q.push(nodeToParent[front]);
