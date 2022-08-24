@@ -74,7 +74,8 @@ int main(int argc, const char * argv[]) {
            bool flag =0;
            int size = q.size();
            for(int i = 0;i<size;i++){
-               // process neighbouring nodes
+               // process neighbouring nodes jo ki hai left ,right, parent
+               
                Node* front = q.front();
                q.pop();
                
