@@ -40,8 +40,11 @@ int main(int argc, const char * argv[]) {
              // Find the inorder predecessor of current
              pre = current->left;
              while (pre->right != NULL
-                    && pre->right != current)
+                    && pre->right != current){
+                    
                  pre = pre->right;
+                 
+                 }
   
              // Make current as the right child of its inorder predecessor
              if (pre->right == NULL) {
