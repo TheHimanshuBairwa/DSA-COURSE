@@ -45,9 +45,38 @@ int main(int argc, const char * argv[]) {
      return isBST(root,INT_MIN,INT_MAX);
  }
  
+------------------------------------------------------------------------------------------------------------------- 
+ Approach 2: used when there is issue with range of INT_MIN and INT_MAX
+ 
+ class Solution {
+public:
+    
+    void inorder(TreeNode* root,vector<int> &ans){
+        if(root == NULL)
+            return;
+        
+        inorder(root->left,ans);
+        ans.push_back(root->val);
+        inorder(root->right,ans);
+    }
+    
+    bool isValidBST(TreeNode* root) {
+        vector<int> ans;
+        inorder(root,ans);
+        
+        for(int i = 1; i<ans.size(); i++){
+            if(ans[i] <= ans[i-1])
+                return false;
+        }
+        
+        return true;
+        
+    }
+};
+  
  */
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
  QUESTION 2-> FIND Kth LARGEST ELEMENT IN BST
  
@@ -86,7 +115,7 @@ int main(int argc, const char * argv[]) {
  
  */
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
  QUESTION 3--> PREDECESSOR AND SUCCESSOR IN BST
  
@@ -138,7 +167,7 @@ int main(int argc, const char * argv[]) {
 
  */
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
  QUESTION 4 --> LCA IN BST
  
