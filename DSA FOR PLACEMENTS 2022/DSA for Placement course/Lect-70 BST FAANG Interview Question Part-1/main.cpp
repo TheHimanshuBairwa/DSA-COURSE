@@ -46,7 +46,8 @@ int main(int argc, const char * argv[]) {
  }
  
 ------------------------------------------------------------------------------------------------------------------- 
- Approach 2: used when there is issue with range of INT_MIN and INT_MAX
+ Approach 2: used when there is issue with range of INT_MIN and INT_MAX 
+ For LEETCODE question
  
  class Solution {
 public:
@@ -112,6 +113,41 @@ public:
      int ans = solve(root,i,k);
      return ans;
  }
+ 
+ 
+ 
+----> APPROACH 2: for LEETCODE Question
+ 
+ class Solution {
+public:
+    
+    void inorder(TreeNode* root, vector<int>&ans){
+        if(root == NULL){
+            return;
+        }
+        
+        inorder(root->left,ans);
+        ans.push_back(root->val);
+        inorder(root->right,ans);
+    }
+    
+    int kthSmallest(TreeNode* root, int k) {
+        vector<int> ans;
+        
+        inorder(root,ans);
+        int res = 0;
+        for(int i = 0; i<k; i++){
+            res = ans[i];
+        }
+        
+        return res;
+        
+    }
+};
+ 
+ 
+ 
+ 
  
  */
 
