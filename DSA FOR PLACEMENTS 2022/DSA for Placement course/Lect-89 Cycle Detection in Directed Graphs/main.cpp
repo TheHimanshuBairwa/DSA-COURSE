@@ -73,4 +73,47 @@ int main(int argc, const char * argv[]) {
  }
  
  
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ QUESTION: DETCT CYCLE IN DIRECTED GRAPH USING DFS
+ 
+ LINK: https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+ 
+ CODE: STRIVER SOLUTION
+ 
+
+class Solution {
+  public:
+    // Function to detect cycle in a directed graph.
+   
+    bool checkCycle(int node, vector<int> adj[], vector<int>& visited, vector<int>& dfsvisi){
+        visited[node] = 1;
+        dfsvisi[node] = 1;
+        
+        for(auto it : adj[node]){
+            if(!visited[it]){
+                if(checkCycle(it,adj,visited,dfsvisi)) return true;
+            }
+            else if(visited[it] && dfsvisi[it]) return true;
+        }
+        
+        dfsvisi[node] = 0;
+        return false;
+        
+    }
+   
+    bool isCyclic(int V, vector<int> adj[]) {
+        vector<int> visited(V,0);
+        vector<int> dfsvisi(V,0);
+        
+        for(int i = 0; i<V; i++){
+            if(!visited[i]){
+                if(checkCycle(i,adj,visited,dfsvisi)) return true;
+            }
+        }
+        return false;
+    }
+};
+
  */
