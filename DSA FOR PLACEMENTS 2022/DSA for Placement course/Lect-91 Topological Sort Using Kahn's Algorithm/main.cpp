@@ -79,5 +79,55 @@ int main(int argc, const char * argv[]) {
      return ans;
  }
  
+ ---------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ GFG link: https://practice.geeksforgeeks.org/problems/topological-sort/1
+ 
+ 
+ code: 
+ 
+ 
+class Solution
+{
+	public:
+	//Function to return list containing vertices in Topological order. 
+	vector<int> topoSort(int V, vector<int> adj[]) 
+	{
+	    queue<int> q;
+	    vector<int> indegres(V,0);
+	    
+	    for(int i = 0 ; i<V; i++){
+	        for(auto it: adj[i]){
+	            indegres[it]++;
+	        }
+	    }
+	    
+	    for(int i = 0; i<V; i++){
+	        if(indegres[i] == 0){
+	            q.push(i);
+	        }
+	    }
+	    
+	    vector<int> topo;
+	    while(!q.empty()){
+	        int node = q.front();
+	        q.pop();
+	        topo.push_back(node);
+	        for(auto it : adj[node]){
+	            indegres[it]--;
+	            if(indegres[it] == 0){
+	                q.push(it);
+	            }
+	        }
+	    }
+	    
+	    
+	   return topo; 
+	    
+	    
+	}
+};
+
+
  
  */
