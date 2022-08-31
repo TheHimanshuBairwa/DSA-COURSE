@@ -72,5 +72,57 @@ int main(int argc, const char * argv[]) {
      
  }
  
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
  
+ Question : topoSORT usinf DFS 
+ 
+ GFG LINK: https://practice.geeksforgeeks.org/problems/topological-sort/1
+ 
+ code:  
+ 
+
+class Solution
+{
+	public:
+	//Function to return list containing vertices in Topological order. 
+
+    void solve(stack<int> &s, vector<int> adj[],vector<int>& visited,int node){
+        
+        visited[node] = true;
+        
+        for(auto neighbour : adj[node]){
+            if(!visited[neighbour]){
+                solve(s,adj,visited,neighbour);
+            }
+        }
+        
+        s.push(node);
+    }
+
+
+
+	vector<int> topoSort(int V, vector<int> adj[]) 
+	{
+	    vector<int> ans;
+	    vector<int> visited(V);
+	    stack<int> s;
+	    for(int i = 0; i<V; i++){
+	        if(!visited[i]){
+	            solve(s,adj,visited,i);
+	        }
+	    }
+	    
+	    while(!s.empty()){
+	        int node = s.top();
+	        ans.push_back(node);
+	        s.pop();
+	    }
+	    return ans;
+	    
+	    
+	}
+};
+
+
+
  */
