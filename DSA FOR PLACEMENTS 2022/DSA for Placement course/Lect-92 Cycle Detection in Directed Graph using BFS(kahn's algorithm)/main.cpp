@@ -80,10 +80,59 @@ int main(int argc, const char * argv[]) {
      }else{
          return true;
      }
-
-     
-     
+   
  }
- 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+class Solution {
+  public:
+    // Function to detect cycle in a directed graph.
+    bool isCyclic(int V, vector<int> adj[]) {
+        queue<int> q;
+        vector<int> indegre(V,0);
+        for(int i = 0; i<V; i++){
+            for(auto it : adj[i]){
+                indegre[it]++;
+            }
+        }
+        
+        for(int i = 0; i<V; i++){
+            if(indegre[i] == 0){
+                q.push(i);
+            }
+        }
+        
+        
+        int cnt = 0;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            cnt++;
+            
+            for(auto neighbour : adj[node]){
+                indegre[neighbour]--;
+                if(indegre[neighbour] == 0){
+                    q.push(neighbour);
+                }
+            }
+        }
+        
+        if(cnt == V)    return false;
+        else    return true;
+        
+        
+        
+        
+        
+        
+    }
+};
+
+
+
+
  
  */
