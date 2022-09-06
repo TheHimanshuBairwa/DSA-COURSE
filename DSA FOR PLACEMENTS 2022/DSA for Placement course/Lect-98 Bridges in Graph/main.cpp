@@ -38,7 +38,10 @@ int main(int argc, const char * argv[]) {
             }
             if(!vis[neighbour]){
                dfs(neighbour,node,timer,disc,low,result,adj,vis);
+               
+               // jab bi call se vapas ayenge to pehele low ko update karenge
                low[node] = min(low[node],low[neighbour]);
+               
                //check if edge is bridge
                if(low[neighbour] > disc[node]){
                    vector<int> ans;
