@@ -342,5 +342,45 @@ private:
 
 */
 
+/*
+Question 10 : Remove all adjacent duplicates
+
+link: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+
+code: 
+
+class Solution {
+public:
+    string removeDuplicates(string s) {
+        
+        string ans = "";
+        for(int i = 0 ;i<s.length(); i++){
+            if(!ans.empty() && ans.back() == s[i])
+                ans.pop_back();
+            else
+                ans.push_back(s[i]);
+        }
+        return ans;
+        
+        
+        
+        // // // // // // // // // // // // // // // // // // // 
+        string res = "";
+        for (char c : s) {
+            if (!res.empty() && res.back() == c) {
+                res.pop_back();
+            } else {
+                res.push_back(c);
+            }
+        }
+        return res;
+	
+	// // // // // // // // // // // // // // // // // // // 
+        
+    }
+};
+
+*/
+
 
 
