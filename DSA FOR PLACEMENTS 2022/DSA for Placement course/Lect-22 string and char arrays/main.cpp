@@ -382,5 +382,51 @@ public:
 
 */
 
+/*
+
+Question 11: String Compression
+link: https://leetcode.com/problems/string-compression/
+
+code: 
+
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+        
+        int i = 0;
+        int ansindex = 0;
+        int n = chars.size();
+        
+        while(i<n)
+        {
+        int j =i+1;
+        while(j<n && chars[i] == chars[j]) {
+            j++;
+        }
+            // yaha kab aoge
+            //ya to vector pura traverse kar lia ho
+            // ya to koi naya character encounter kiya ho
+            
+            
+            //old char store kara llo
+            chars[ansindex++] = chars[i];
+            
+            int count = j-i;
+            
+            if(count>1){
+                //converting count in single digit char number and saving in ans
+                
+                string cnt = to_string(count);
+                for(char ch : cnt){
+                    chars[ansindex++] = ch;
+                }
+                // moving to new character
+            } i = j;
+        }
+        return ansindex;
+    }
+};
+
+*/
 
 
