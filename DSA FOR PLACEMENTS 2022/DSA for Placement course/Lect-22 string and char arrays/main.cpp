@@ -181,6 +181,52 @@ class Solution
         return res;
     } 
 };
+*/
+
+/*
+Question 6 : Maximum Occuring Character in string
+
+link: https://practice.geeksforgeeks.org/problems/maximum-occuring-character-1587115620/1
+
+code: 
+
+class Solution
+{
+    public:
+    
+    char getMaxOccuringChar(string str)
+    {
+        int arr[26] = {0};
+        int number = 0;
+        for(int i = 0; i<str.length(); i++){
+        //lowercase vala
+        char ch = str[i];
+        if(str[i]>='a' && str[i]<='z'){
+            number = ch - 'a';
+            
+        }
+        // uppercase vala
+        else{
+            number = ch - 'A';
+            
+        }arr[number]++;
+    }
+    int maxi = -1;
+    int ans = 0;
+    for(int i =0; i<26;i++){
+        if(maxi < arr[i]){
+            ans = i;
+            maxi = arr[i];
+        }
+    }
+    char finalAns = 'a' + ans;
+    return finalAns;
+}
+
+
+
+};
+
 
 
 */
