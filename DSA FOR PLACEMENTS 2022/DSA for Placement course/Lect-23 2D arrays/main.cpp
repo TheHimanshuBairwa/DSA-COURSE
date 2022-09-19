@@ -165,5 +165,63 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 
 */
 
+/*
+Question: Spiral Print of 2D matrix
+link: https://leetcode.com/problems/spiral-matrix/
+
+code:
+
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        
+        vector<int> ans;
+        int row = matrix.size();
+        int col = matrix[0].size();
+        
+        
+        int count = 0;
+        int totalelem = row*col;
+        // index initialisation
+        
+        int startingrow = 0;
+        int startingcol = 0;
+        int endingrow = row-1;
+        int endingcol = col-1;
+        
+        while(count<totalelem){
+            
+            //print starting row
+            for(int index = startingcol; count<totalelem && index<=endingcol; index++) {
+                ans.push_back(matrix[startingrow][index]);
+                count++;
+            }startingrow++;
+            
+            //ending col print
+            for(int index = startingrow; count<totalelem && index<=endingrow; index++){
+                ans.push_back(matrix[index][endingcol]);
+                count++;
+                
+            }endingcol--;
+            
+            // ending row print
+            for(int index = endingcol; count<totalelem && index>= startingcol;index--){
+                ans.push_back(matrix[endingrow][index]);
+                count++;
+            }endingrow--;
+            
+            //starting col print
+            for(int index = endingrow; count<totalelem && index >=startingrow; index--){
+                ans.push_back(matrix[index][startingcol]);
+                count++;
+            }startingcol++;
+        }
+        
+        return ans;
+    }
+};
+
+*/
+
 
 
