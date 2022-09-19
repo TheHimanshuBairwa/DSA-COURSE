@@ -166,7 +166,7 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 */
 
 /*
-Question: Spiral Print of 2D matrix
+Question 2: Spiral Print of 2D matrix
 link: https://leetcode.com/problems/spiral-matrix/
 
 code:
@@ -222,6 +222,39 @@ public:
 };
 
 */
+
+/*
+QUESTION - 3 : ROTATE 2D MATRIX BY 90 DEGREES CLOCKWISE
+
+LINK: https://leetcode.com/problems/rotate-image/
+
+CODE: 
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int row = matrix.size();
+        int col = matrix[0].size();
+        
+        for(int i = 0; i< row; i++){
+            for(int j = 0; j<i; j++){
+                swap(matrix[i][j],matrix[j][i]);
+            }
+        }
+        
+        for(int i = 0; i<row; i++){
+            reverse(matrix[i].begin(),matrix[i].end());
+        }
+    }
+};
+
+
+*/
+
+
+
+
+
 
 
 
