@@ -216,6 +216,80 @@ int main() {
 }
 
 
+/*
+QUESTION : DETECT LOOP IN LINKED LIST
+
+LINK: https://leetcode.com/problems/linked-list-cycle/
+
+CODE:  
+APPROACH 1:
+
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        
+        if(head == NULL){
+            return false;
+        }
+        
+        map<ListNode*,bool> mp;
+        
+        ListNode* temp = head;
+        
+        while(temp != NULL){
+            if(mp[temp] == true){
+                return true;
+            }
+            mp[temp] = true;
+            temp = temp->next;
+        }
+        
+        return false;
+        
+    }
+};
+
+
+APPROACH 2: FLOYD'S ALGORITHM
+
+class Solution {
+public:
+    
+    ListNode* loopCheck(ListNode* head){
+        if(head == NULL){
+            return NULL;
+        }
+        
+        ListNode* fast = head;
+        ListNode* slow = head;
+        
+        while(slow != NULL && fast != NULL){
+            fast = fast->next;
+            if(fast != NULL){
+                fast = fast->next;
+            }
+            slow = slow->next;
+            if(slow == fast){
+                return slow;
+            }
+        }
+        return NULL;
+    }
+    
+    
+    bool hasCycle(ListNode *head) {
+        if(loopCheck(head) != NULL){
+            return true;
+        }
+        return false;
+        
+    }
+};
+
+
+
+*/
+
 
 
 /*
