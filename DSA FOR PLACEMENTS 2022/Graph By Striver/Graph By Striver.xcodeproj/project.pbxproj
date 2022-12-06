@@ -1,0 +1,2685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B278CA528F1446900D91991 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B278CA428F1446900D91991 /* main.cpp */; };
+		6B278CB028F14D9600D91991 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B278CAF28F14D9600D91991 /* main.cpp */; };
+		6B278CBB28F152CF00D91991 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B278CBA28F152CF00D91991 /* main.cpp */; };
+		6B278CC628F15C4000D91991 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B278CC528F15C4000D91991 /* main.cpp */; };
+		6B36A9D228F802110069B1ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36A9D128F802110069B1ED /* main.cpp */; };
+		6B36A9DD28F8186D0069B1ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36A9DC28F8186D0069B1ED /* main.cpp */; };
+		6B36A9E828F826480069B1ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36A9E728F826480069B1ED /* main.cpp */; };
+		6B36A9F328F836A00069B1ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36A9F228F836A00069B1ED /* main.cpp */; };
+		6B36BDD428FE9A6E00FFAFE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36BDD328FE9A6E00FFAFE1 /* main.cpp */; };
+		6B36BDDF28FEA98B00FFAFE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B36BDDE28FEA98B00FFAFE1 /* main.cpp */; };
+		6B596B2728F0293900CDB7F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B596B2628F0293900CDB7F9 /* main.cpp */; };
+		6B596B3228F03B0100CDB7F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B596B3128F03B0100CDB7F9 /* main.cpp */; };
+		6B596B3D28F03B5B00CDB7F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B596B3C28F03B5B00CDB7F9 /* main.cpp */; };
+		6B596B4828F03F5400CDB7F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B596B4728F03F5400CDB7F9 /* main.cpp */; };
+		6B63AEE828FAB15100CA394C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AEE728FAB15100CA394C /* main.cpp */; };
+		6B63AEF328FABDB600CA394C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AEF228FABDB600CA394C /* main.cpp */; };
+		6B63AEFE28FADFCC00CA394C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AEFD28FADFCC00CA394C /* main.cpp */; };
+		6B63AF0928FAEA6700CA394C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AF0828FAEA6700CA394C /* main.cpp */; };
+		6B63AF1428FB307700CA394C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B63AF1328FB307700CA394C /* main.cpp */; };
+		6B83C21928F1E2FB00171548 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B83C21828F1E2FB00171548 /* main.cpp */; };
+		6B83C22428F1E87000171548 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B83C22328F1E87000171548 /* main.cpp */; };
+		6B83C22F28F1EFB600171548 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B83C22E28F1EFB600171548 /* main.cpp */; };
+		6BACB1C828EED54800D3101B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB1C728EED54800D3101B /* main.cpp */; };
+		6BACB1D528EED57000D3101B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB1D428EED57000D3101B /* main.cpp */; };
+		6BACB1E028EEDD5500D3101B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB1DF28EEDD5500D3101B /* main.cpp */; };
+		6BACB1EB28EEE80700D3101B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB1EA28EEE80700D3101B /* main.cpp */; };
+		6BBBC2BF28F53A770062E54D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBC2BE28F53A770062E54D /* main.cpp */; };
+		6BBBC2CA28F540DF0062E54D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBC2C928F540DF0062E54D /* main.cpp */; };
+		6BBBC2D528F548180062E54D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBC2D428F548180062E54D /* main.cpp */; };
+		6BBBC2E028F554140062E54D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBC2DF28F554140062E54D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B278CA028F1446900D91991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B278CAB28F14D9600D91991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B278CB628F152CF00D91991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B278CC128F15C4000D91991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36A9CD28F802110069B1ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36A9D828F8186D0069B1ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36A9E328F826480069B1ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36A9EE28F836A00069B1ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36BDCF28FE9A6E00FFAFE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B36BDDA28FEA98B00FFAFE1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B596B2228F0293900CDB7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B596B2D28F03B0100CDB7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B596B3828F03B5B00CDB7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B596B4328F03F5400CDB7F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B63AEE328FAB15100CA394C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B63AEEE28FABDB600CA394C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B63AEF928FADFCC00CA394C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B63AF0428FAEA6700CA394C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B63AF0F28FB307600CA394C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B83C21428F1E2FB00171548 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B83C21F28F1E87000171548 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B83C22A28F1EFB600171548 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BACB1C228EED54800D3101B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BACB1D028EED57000D3101B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BACB1DB28EEDD5500D3101B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BACB1E628EEE80700D3101B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BBBC2BA28F53A770062E54D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BBBC2C528F540DF0062E54D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BBBC2D028F548180062E54D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6BBBC2DB28F554130062E54D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B278CA228F1446900D91991 /* Lect-14 Surrounded Region Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-14 Surrounded Region Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B278CA428F1446900D91991 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B278CAD28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-15 Number of Enclaves Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B278CAF28F14D9600D91991 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B278CB828F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-16 Number of Distinct Islands Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B278CBA28F152CF00D91991 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B278CC328F15C4000D91991 /* Lect-17 Bipartite Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-17 Bipartite Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B278CC528F15C4000D91991 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36A9CF28F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-25 Eventual safe states using Topo sort"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36A9D128F802110069B1ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36A9DA28F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-26 Alien Dictionary topoSort Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36A9DC28F8186D0069B1ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36A9E528F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-27 Shortest path in weighted DAG TopoSort"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36A9E728F826480069B1ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36A9F028F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-28 Shortest path in Undirected Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36A9F228F836A00069B1ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36BDD128FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-36 Shortest Distance in Bianry Maze Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36BDD328FE9A6E00FFAFE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B36BDDC28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-37 Path with Minimum Effort"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B36BDDE28FEA98B00FFAFE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B596B2428F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-10 Rotten Oranges Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B596B2628F0293900CDB7F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B596B2F28F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-11 Detect cycle in undirectional BFS"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B596B3128F03B0100CDB7F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B596B3A28F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-12 Detect Cycle in Undirectional DFS"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B596B3C28F03B5B00CDB7F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B596B4528F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-13 Distance of nearest cell having 1  Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B596B4728F03F5400CDB7F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B63AEE528FAB15100CA394C /* Lect-29 Word Ladder I Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-29 Word Ladder I Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63AEE728FAB15100CA394C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B63AEF028FABDB600CA394C /* Lect-30 Word Ladder II Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-30 Word Ladder II Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63AEF228FABDB600CA394C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B63AEFB28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-32 Dijsktra's Algorithm Shortest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63AEFD28FADFCC00CA394C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B63AF0628FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-33 Dijsktra's Algo Using Set"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63AF0828FAEA6700CA394C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B63AF1128FB307600CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-35 Print Shortest Path using Dijsktra's Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63AF1328FB307700CA394C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B83C21628F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-18 Bipartite Graph Using DFS"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B83C21828F1E2FB00171548 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B83C22128F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-19 Detect cycle in a directed graph using DFS"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B83C22328F1E87000171548 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B83C22C28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-20 Find Eventual Safe States DFS Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B83C22E28F1EFB600171548 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BACB1C428EED54800D3101B /* Graph By Striver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Graph By Striver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BACB1C728EED54800D3101B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BACB1D228EED57000D3101B /* Lect-7 Number of Provinces */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-7 Number of Provinces"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BACB1D428EED57000D3101B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BACB1DD28EEDD5500D3101B /* Lect-8 Number of Islands Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-8 Number of Islands Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BACB1DF28EEDD5500D3101B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BACB1E828EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect- 9 Flood Fill Algorithm Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BACB1EA28EEE80700D3101B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BBBC2BC28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-21 TopoLogical Sort Algorithm Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBBC2BE28F53A770062E54D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BBBC2C728F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-22 Kahns Algorithm Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBBC2C928F540DF0062E54D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BBBC2D228F548180062E54D /* Lect-23 Detect cycle in directed Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-23 Detect cycle in directed Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBBC2D428F548180062E54D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6BBBC2DD28F554140062E54D /* Lect-24 Prerequisite task I & II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lect-24 Prerequisite task I & II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBBC2DF28F554140062E54D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B278C9F28F1446900D91991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CAA28F14D9600D91991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CB528F152CF00D91991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CC028F15C4000D91991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9CC28F802110069B1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9D728F8186D0069B1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9E228F826480069B1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9ED28F836A00069B1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36BDCE28FE9A6E00FFAFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36BDD928FEA98B00FFAFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B2128F0293900CDB7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B2C28F03B0100CDB7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B3728F03B5B00CDB7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B4228F03F5400CDB7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEE228FAB15100CA394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEED28FABDB600CA394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEF828FADFCC00CA394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AF0328FAEA6700CA394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AF0E28FB307600CA394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C21328F1E2FB00171548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C21E28F1E87000171548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C22928F1EFB600171548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1C128EED54800D3101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1CF28EED57000D3101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1DA28EEDD5500D3101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1E528EEE80700D3101B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2B928F53A770062E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2C428F540DF0062E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2CF28F548180062E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2DA28F554130062E54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B278CA328F1446900D91991 /* Lect-14 Surrounded Region Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B278CA428F1446900D91991 /* main.cpp */,
+			);
+			path = "Lect-14 Surrounded Region Graph";
+			sourceTree = "<group>";
+		};
+		6B278CAE28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B278CAF28F14D9600D91991 /* main.cpp */,
+			);
+			path = "Lect-15 Number of Enclaves Graph";
+			sourceTree = "<group>";
+		};
+		6B278CB928F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B278CBA28F152CF00D91991 /* main.cpp */,
+			);
+			path = "Lect-16 Number of Distinct Islands Graph";
+			sourceTree = "<group>";
+		};
+		6B278CC428F15C4000D91991 /* Lect-17 Bipartite Graph BFS */ = {
+			isa = PBXGroup;
+			children = (
+				6B278CC528F15C4000D91991 /* main.cpp */,
+			);
+			path = "Lect-17 Bipartite Graph BFS";
+			sourceTree = "<group>";
+		};
+		6B36A9D028F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */ = {
+			isa = PBXGroup;
+			children = (
+				6B36A9D128F802110069B1ED /* main.cpp */,
+			);
+			path = "Lect-25 Eventual safe states using Topo sort";
+			sourceTree = "<group>";
+		};
+		6B36A9DB28F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B36A9DC28F8186D0069B1ED /* main.cpp */,
+			);
+			path = "Lect-26 Alien Dictionary topoSort Graph";
+			sourceTree = "<group>";
+		};
+		6B36A9E628F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */ = {
+			isa = PBXGroup;
+			children = (
+				6B36A9E728F826480069B1ED /* main.cpp */,
+			);
+			path = "Lect-27 Shortest path in weighted DAG TopoSort";
+			sourceTree = "<group>";
+		};
+		6B36A9F128F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B36A9F228F836A00069B1ED /* main.cpp */,
+			);
+			path = "Lect-28 Shortest path in Undirected Graph";
+			sourceTree = "<group>";
+		};
+		6B36BDD228FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B36BDD328FE9A6E00FFAFE1 /* main.cpp */,
+			);
+			path = "Lect-36 Shortest Distance in Bianry Maze Graph";
+			sourceTree = "<group>";
+		};
+		6B36BDDD28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */ = {
+			isa = PBXGroup;
+			children = (
+				6B36BDDE28FEA98B00FFAFE1 /* main.cpp */,
+			);
+			path = "Lect-37 Path with Minimum Effort";
+			sourceTree = "<group>";
+		};
+		6B596B2528F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B596B2628F0293900CDB7F9 /* main.cpp */,
+			);
+			path = "Lect-10 Rotten Oranges Graph";
+			sourceTree = "<group>";
+		};
+		6B596B3028F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */ = {
+			isa = PBXGroup;
+			children = (
+				6B596B3128F03B0100CDB7F9 /* main.cpp */,
+			);
+			path = "Lect-11 Detect cycle in undirectional BFS";
+			sourceTree = "<group>";
+		};
+		6B596B3B28F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */ = {
+			isa = PBXGroup;
+			children = (
+				6B596B3C28F03B5B00CDB7F9 /* main.cpp */,
+			);
+			path = "Lect-12 Detect Cycle in Undirectional DFS";
+			sourceTree = "<group>";
+		};
+		6B596B4628F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B596B4728F03F5400CDB7F9 /* main.cpp */,
+			);
+			path = "Lect-13 Distance of nearest cell having 1  Graph";
+			sourceTree = "<group>";
+		};
+		6B63AEE628FAB15100CA394C /* Lect-29 Word Ladder I Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AEE728FAB15100CA394C /* main.cpp */,
+			);
+			path = "Lect-29 Word Ladder I Graph";
+			sourceTree = "<group>";
+		};
+		6B63AEF128FABDB600CA394C /* Lect-30 Word Ladder II Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AEF228FABDB600CA394C /* main.cpp */,
+			);
+			path = "Lect-30 Word Ladder II Graph";
+			sourceTree = "<group>";
+		};
+		6B63AEFC28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AEFD28FADFCC00CA394C /* main.cpp */,
+			);
+			path = "Lect-32 Dijsktra's Algorithm Shortest";
+			sourceTree = "<group>";
+		};
+		6B63AF0728FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AF0828FAEA6700CA394C /* main.cpp */,
+			);
+			path = "Lect-33 Dijsktra's Algo Using Set";
+			sourceTree = "<group>";
+		};
+		6B63AF1228FB307700CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B63AF1328FB307700CA394C /* main.cpp */,
+			);
+			path = "Lect-35 Print Shortest Path using Dijsktra's Graph";
+			sourceTree = "<group>";
+		};
+		6B83C21728F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */ = {
+			isa = PBXGroup;
+			children = (
+				6B83C21828F1E2FB00171548 /* main.cpp */,
+			);
+			path = "Lect-18 Bipartite Graph Using DFS";
+			sourceTree = "<group>";
+		};
+		6B83C22228F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */ = {
+			isa = PBXGroup;
+			children = (
+				6B83C22328F1E87000171548 /* main.cpp */,
+			);
+			path = "Lect-19 Detect cycle in a directed graph using DFS";
+			sourceTree = "<group>";
+		};
+		6B83C22D28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6B83C22E28F1EFB600171548 /* main.cpp */,
+			);
+			path = "Lect-20 Find Eventual Safe States DFS Graph";
+			sourceTree = "<group>";
+		};
+		6BACB1BB28EED54800D3101B = {
+			isa = PBXGroup;
+			children = (
+				6BACB1C628EED54800D3101B /* Graph By Striver */,
+				6BACB1D328EED57000D3101B /* Lect-7 Number of Provinces */,
+				6BACB1DE28EEDD5500D3101B /* Lect-8 Number of Islands Graph */,
+				6BACB1E928EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */,
+				6B596B2528F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */,
+				6B596B3028F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */,
+				6B596B3B28F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */,
+				6B596B4628F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */,
+				6B278CA328F1446900D91991 /* Lect-14 Surrounded Region Graph */,
+				6B278CAE28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */,
+				6B278CB928F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */,
+				6B278CC428F15C4000D91991 /* Lect-17 Bipartite Graph BFS */,
+				6B83C21728F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */,
+				6B83C22228F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */,
+				6B83C22D28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */,
+				6BBBC2BD28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */,
+				6BBBC2C828F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */,
+				6BBBC2D328F548180062E54D /* Lect-23 Detect cycle in directed Graph */,
+				6BBBC2DE28F554140062E54D /* Lect-24 Prerequisite task I & II */,
+				6B36A9D028F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */,
+				6B36A9DB28F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */,
+				6B36A9E628F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */,
+				6B36A9F128F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */,
+				6B63AEE628FAB15100CA394C /* Lect-29 Word Ladder I Graph */,
+				6B63AEF128FABDB600CA394C /* Lect-30 Word Ladder II Graph */,
+				6B63AEFC28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */,
+				6B63AF0728FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */,
+				6B63AF1228FB307700CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */,
+				6B36BDD228FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */,
+				6B36BDDD28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */,
+				6BACB1C528EED54800D3101B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BACB1C528EED54800D3101B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB1C428EED54800D3101B /* Graph By Striver */,
+				6BACB1D228EED57000D3101B /* Lect-7 Number of Provinces */,
+				6BACB1DD28EEDD5500D3101B /* Lect-8 Number of Islands Graph */,
+				6BACB1E828EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */,
+				6B596B2428F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */,
+				6B596B2F28F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */,
+				6B596B3A28F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */,
+				6B596B4528F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */,
+				6B278CA228F1446900D91991 /* Lect-14 Surrounded Region Graph */,
+				6B278CAD28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */,
+				6B278CB828F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */,
+				6B278CC328F15C4000D91991 /* Lect-17 Bipartite Graph */,
+				6B83C21628F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */,
+				6B83C22128F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */,
+				6B83C22C28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */,
+				6BBBC2BC28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */,
+				6BBBC2C728F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */,
+				6BBBC2D228F548180062E54D /* Lect-23 Detect cycle in directed Graph */,
+				6BBBC2DD28F554140062E54D /* Lect-24 Prerequisite task I & II */,
+				6B36A9CF28F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */,
+				6B36A9DA28F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */,
+				6B36A9E528F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */,
+				6B36A9F028F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */,
+				6B63AEE528FAB15100CA394C /* Lect-29 Word Ladder I Graph */,
+				6B63AEF028FABDB600CA394C /* Lect-30 Word Ladder II Graph */,
+				6B63AEFB28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */,
+				6B63AF0628FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */,
+				6B63AF1128FB307600CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */,
+				6B36BDD128FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */,
+				6B36BDDC28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BACB1C628EED54800D3101B /* Graph By Striver */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB1C728EED54800D3101B /* main.cpp */,
+			);
+			path = "Graph By Striver";
+			sourceTree = "<group>";
+		};
+		6BACB1D328EED57000D3101B /* Lect-7 Number of Provinces */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB1D428EED57000D3101B /* main.cpp */,
+			);
+			path = "Lect-7 Number of Provinces";
+			sourceTree = "<group>";
+		};
+		6BACB1DE28EEDD5500D3101B /* Lect-8 Number of Islands Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB1DF28EEDD5500D3101B /* main.cpp */,
+			);
+			path = "Lect-8 Number of Islands Graph";
+			sourceTree = "<group>";
+		};
+		6BACB1E928EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB1EA28EEE80700D3101B /* main.cpp */,
+			);
+			path = "Lect- 9 Flood Fill Algorithm Graph";
+			sourceTree = "<group>";
+		};
+		6BBBC2BD28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBC2BE28F53A770062E54D /* main.cpp */,
+			);
+			path = "Lect-21 TopoLogical Sort Algorithm Graph";
+			sourceTree = "<group>";
+		};
+		6BBBC2C828F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBC2C928F540DF0062E54D /* main.cpp */,
+			);
+			path = "Lect-22 Kahns Algorithm Graph";
+			sourceTree = "<group>";
+		};
+		6BBBC2D328F548180062E54D /* Lect-23 Detect cycle in directed Graph */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBC2D428F548180062E54D /* main.cpp */,
+			);
+			path = "Lect-23 Detect cycle in directed Graph";
+			sourceTree = "<group>";
+		};
+		6BBBC2DE28F554140062E54D /* Lect-24 Prerequisite task I & II */ = {
+			isa = PBXGroup;
+			children = (
+				6BBBC2DF28F554140062E54D /* main.cpp */,
+			);
+			path = "Lect-24 Prerequisite task I & II";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B278CA128F1446900D91991 /* Lect-14 Surrounded Region Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B278CA828F1446900D91991 /* Build configuration list for PBXNativeTarget "Lect-14 Surrounded Region Graph" */;
+			buildPhases = (
+				6B278C9E28F1446900D91991 /* Sources */,
+				6B278C9F28F1446900D91991 /* Frameworks */,
+				6B278CA028F1446900D91991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-14 Surrounded Region Graph";
+			productName = "Lect-14 Surrounded Region Graph";
+			productReference = 6B278CA228F1446900D91991 /* Lect-14 Surrounded Region Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B278CAC28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B278CB128F14D9600D91991 /* Build configuration list for PBXNativeTarget "Lect-15 Number of Enclaves Graph" */;
+			buildPhases = (
+				6B278CA928F14D9600D91991 /* Sources */,
+				6B278CAA28F14D9600D91991 /* Frameworks */,
+				6B278CAB28F14D9600D91991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-15 Number of Enclaves Graph";
+			productName = "Lect-15 Number of Enclaves Graph";
+			productReference = 6B278CAD28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B278CB728F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B278CBC28F152CF00D91991 /* Build configuration list for PBXNativeTarget "Lect-16 Number of Distinct Islands Graph" */;
+			buildPhases = (
+				6B278CB428F152CF00D91991 /* Sources */,
+				6B278CB528F152CF00D91991 /* Frameworks */,
+				6B278CB628F152CF00D91991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-16 Number of Distinct Islands Graph";
+			productName = "Lect-16 Number of Distinct Islands Graph";
+			productReference = 6B278CB828F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B278CC228F15C4000D91991 /* Lect-17 Bipartite Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B278CC728F15C4000D91991 /* Build configuration list for PBXNativeTarget "Lect-17 Bipartite Graph" */;
+			buildPhases = (
+				6B278CBF28F15C4000D91991 /* Sources */,
+				6B278CC028F15C4000D91991 /* Frameworks */,
+				6B278CC128F15C4000D91991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-17 Bipartite Graph";
+			productName = "Lect-17 Bipartite Graph";
+			productReference = 6B278CC328F15C4000D91991 /* Lect-17 Bipartite Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36A9CE28F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36A9D528F802110069B1ED /* Build configuration list for PBXNativeTarget "Lect-25 Eventual safe states using Topo sort" */;
+			buildPhases = (
+				6B36A9CB28F802110069B1ED /* Sources */,
+				6B36A9CC28F802110069B1ED /* Frameworks */,
+				6B36A9CD28F802110069B1ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-25 Eventual safe states using Topo sort";
+			productName = "Lect-25 Eventual safe states using Topo sort";
+			productReference = 6B36A9CF28F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36A9D928F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36A9DE28F8186D0069B1ED /* Build configuration list for PBXNativeTarget "Lect-26 Alien Dictionary topoSort Graph" */;
+			buildPhases = (
+				6B36A9D628F8186D0069B1ED /* Sources */,
+				6B36A9D728F8186D0069B1ED /* Frameworks */,
+				6B36A9D828F8186D0069B1ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-26 Alien Dictionary topoSort Graph";
+			productName = "Lect-26 Alien Dictionary topoSort Graph";
+			productReference = 6B36A9DA28F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36A9E428F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36A9E928F826480069B1ED /* Build configuration list for PBXNativeTarget "Lect-27 Shortest path in weighted DAG TopoSort" */;
+			buildPhases = (
+				6B36A9E128F826480069B1ED /* Sources */,
+				6B36A9E228F826480069B1ED /* Frameworks */,
+				6B36A9E328F826480069B1ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-27 Shortest path in weighted DAG TopoSort";
+			productName = "Lect-27 Shortest path in weighted DAG TopoSort";
+			productReference = 6B36A9E528F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36A9EF28F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36A9F428F836A00069B1ED /* Build configuration list for PBXNativeTarget "Lect-28 Shortest path in Undirected Graph" */;
+			buildPhases = (
+				6B36A9EC28F836A00069B1ED /* Sources */,
+				6B36A9ED28F836A00069B1ED /* Frameworks */,
+				6B36A9EE28F836A00069B1ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-28 Shortest path in Undirected Graph";
+			productName = "Lect-28 Shortest path in Undirected Graph";
+			productReference = 6B36A9F028F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36BDD028FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36BDD728FE9A6E00FFAFE1 /* Build configuration list for PBXNativeTarget "Lect-36 Shortest Distance in Bianry Maze Graph" */;
+			buildPhases = (
+				6B36BDCD28FE9A6E00FFAFE1 /* Sources */,
+				6B36BDCE28FE9A6E00FFAFE1 /* Frameworks */,
+				6B36BDCF28FE9A6E00FFAFE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-36 Shortest Distance in Bianry Maze Graph";
+			productName = "Lect-36 Shortest Distance in Bianry Maze Graph";
+			productReference = 6B36BDD128FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B36BDDB28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B36BDE028FEA98B00FFAFE1 /* Build configuration list for PBXNativeTarget "Lect-37 Path with Minimum Effort" */;
+			buildPhases = (
+				6B36BDD828FEA98B00FFAFE1 /* Sources */,
+				6B36BDD928FEA98B00FFAFE1 /* Frameworks */,
+				6B36BDDA28FEA98B00FFAFE1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-37 Path with Minimum Effort";
+			productName = "Lect-37 Path with Minimum Effort";
+			productReference = 6B36BDDC28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B596B2328F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B596B2A28F0293900CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-10 Rotten Oranges Graph" */;
+			buildPhases = (
+				6B596B2028F0293900CDB7F9 /* Sources */,
+				6B596B2128F0293900CDB7F9 /* Frameworks */,
+				6B596B2228F0293900CDB7F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-10 Rotten Oranges Graph";
+			productName = "Lect-10 Rotten Oranges Graph";
+			productReference = 6B596B2428F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B596B2E28F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B596B3328F03B0100CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-11 Detect cycle in undirectional BFS" */;
+			buildPhases = (
+				6B596B2B28F03B0100CDB7F9 /* Sources */,
+				6B596B2C28F03B0100CDB7F9 /* Frameworks */,
+				6B596B2D28F03B0100CDB7F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-11 Detect cycle in undirectional BFS";
+			productName = "Lect-11 Detect cycle in undirectional BFS";
+			productReference = 6B596B2F28F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B596B3928F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B596B3E28F03B5B00CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-12 Detect Cycle in Undirectional DFS" */;
+			buildPhases = (
+				6B596B3628F03B5B00CDB7F9 /* Sources */,
+				6B596B3728F03B5B00CDB7F9 /* Frameworks */,
+				6B596B3828F03B5B00CDB7F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-12 Detect Cycle in Undirectional DFS";
+			productName = "Lect-12 Detect Cycle in Undirectional DFS";
+			productReference = 6B596B3A28F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B596B4428F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B596B4928F03F5400CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-13 Distance of nearest cell having 1  Graph" */;
+			buildPhases = (
+				6B596B4128F03F5400CDB7F9 /* Sources */,
+				6B596B4228F03F5400CDB7F9 /* Frameworks */,
+				6B596B4328F03F5400CDB7F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-13 Distance of nearest cell having 1  Graph";
+			productName = "Lect-13 Distance of nearest cell having 1  Graph";
+			productReference = 6B596B4528F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B63AEE428FAB15100CA394C /* Lect-29 Word Ladder I Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63AEEB28FAB15100CA394C /* Build configuration list for PBXNativeTarget "Lect-29 Word Ladder I Graph" */;
+			buildPhases = (
+				6B63AEE128FAB15100CA394C /* Sources */,
+				6B63AEE228FAB15100CA394C /* Frameworks */,
+				6B63AEE328FAB15100CA394C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-29 Word Ladder I Graph";
+			productName = "Lect-29 Word Ladder I Graph";
+			productReference = 6B63AEE528FAB15100CA394C /* Lect-29 Word Ladder I Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B63AEEF28FABDB600CA394C /* Lect-30 Word Ladder II Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63AEF428FABDB600CA394C /* Build configuration list for PBXNativeTarget "Lect-30 Word Ladder II Graph" */;
+			buildPhases = (
+				6B63AEEC28FABDB600CA394C /* Sources */,
+				6B63AEED28FABDB600CA394C /* Frameworks */,
+				6B63AEEE28FABDB600CA394C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-30 Word Ladder II Graph";
+			productName = "Lect-30 Word Ladder II Graph";
+			productReference = 6B63AEF028FABDB600CA394C /* Lect-30 Word Ladder II Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B63AEFA28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63AEFF28FADFCC00CA394C /* Build configuration list for PBXNativeTarget "Lect-32 Dijsktra's Algorithm Shortest" */;
+			buildPhases = (
+				6B63AEF728FADFCC00CA394C /* Sources */,
+				6B63AEF828FADFCC00CA394C /* Frameworks */,
+				6B63AEF928FADFCC00CA394C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-32 Dijsktra's Algorithm Shortest";
+			productName = "Lect-32 Dijsktra's Algorithm Shortest";
+			productReference = 6B63AEFB28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B63AF0528FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63AF0A28FAEA6700CA394C /* Build configuration list for PBXNativeTarget "Lect-33 Dijsktra's Algo Using Set" */;
+			buildPhases = (
+				6B63AF0228FAEA6700CA394C /* Sources */,
+				6B63AF0328FAEA6700CA394C /* Frameworks */,
+				6B63AF0428FAEA6700CA394C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-33 Dijsktra's Algo Using Set";
+			productName = "Lect-33 Dijsktra's Algo Using Set";
+			productReference = 6B63AF0628FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B63AF1028FB307600CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63AF1528FB307700CA394C /* Build configuration list for PBXNativeTarget "Lect-35 Print Shortest Path using Dijsktra's Graph" */;
+			buildPhases = (
+				6B63AF0D28FB307600CA394C /* Sources */,
+				6B63AF0E28FB307600CA394C /* Frameworks */,
+				6B63AF0F28FB307600CA394C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-35 Print Shortest Path using Dijsktra's Graph";
+			productName = "Lect-35 Print Shortest Path using Dijsktra's Graph";
+			productReference = 6B63AF1128FB307600CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B83C21528F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B83C21A28F1E2FB00171548 /* Build configuration list for PBXNativeTarget "Lect-18 Bipartite Graph Using DFS" */;
+			buildPhases = (
+				6B83C21228F1E2FB00171548 /* Sources */,
+				6B83C21328F1E2FB00171548 /* Frameworks */,
+				6B83C21428F1E2FB00171548 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-18 Bipartite Graph Using DFS";
+			productName = "Lect-18 Bipartite Graph Using DFS";
+			productReference = 6B83C21628F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B83C22028F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B83C22528F1E87000171548 /* Build configuration list for PBXNativeTarget "Lect-19 Detect cycle in a directed graph using DFS" */;
+			buildPhases = (
+				6B83C21D28F1E87000171548 /* Sources */,
+				6B83C21E28F1E87000171548 /* Frameworks */,
+				6B83C21F28F1E87000171548 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-19 Detect cycle in a directed graph using DFS";
+			productName = "Lect-19 Detect cycle in a directed graph using DFS";
+			productReference = 6B83C22128F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B83C22B28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B83C23028F1EFB600171548 /* Build configuration list for PBXNativeTarget "Lect-20 Find Eventual Safe States DFS Graph" */;
+			buildPhases = (
+				6B83C22828F1EFB600171548 /* Sources */,
+				6B83C22928F1EFB600171548 /* Frameworks */,
+				6B83C22A28F1EFB600171548 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-20 Find Eventual Safe States DFS Graph";
+			productName = "Lect-20 Find Eventual Safe States DFS Graph";
+			productReference = 6B83C22C28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BACB1C328EED54800D3101B /* Graph By Striver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BACB1CB28EED54800D3101B /* Build configuration list for PBXNativeTarget "Graph By Striver" */;
+			buildPhases = (
+				6BACB1C028EED54800D3101B /* Sources */,
+				6BACB1C128EED54800D3101B /* Frameworks */,
+				6BACB1C228EED54800D3101B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graph By Striver";
+			productName = "Graph By Striver";
+			productReference = 6BACB1C428EED54800D3101B /* Graph By Striver */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BACB1D128EED57000D3101B /* Lect-7 Number of Provinces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BACB1D628EED57000D3101B /* Build configuration list for PBXNativeTarget "Lect-7 Number of Provinces" */;
+			buildPhases = (
+				6BACB1CE28EED57000D3101B /* Sources */,
+				6BACB1CF28EED57000D3101B /* Frameworks */,
+				6BACB1D028EED57000D3101B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-7 Number of Provinces";
+			productName = "Lect-7 Number of Provinces";
+			productReference = 6BACB1D228EED57000D3101B /* Lect-7 Number of Provinces */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BACB1DC28EEDD5500D3101B /* Lect-8 Number of Islands Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BACB1E128EEDD5500D3101B /* Build configuration list for PBXNativeTarget "Lect-8 Number of Islands Graph" */;
+			buildPhases = (
+				6BACB1D928EEDD5500D3101B /* Sources */,
+				6BACB1DA28EEDD5500D3101B /* Frameworks */,
+				6BACB1DB28EEDD5500D3101B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-8 Number of Islands Graph";
+			productName = "Lect-8 Number of Islands Graph";
+			productReference = 6BACB1DD28EEDD5500D3101B /* Lect-8 Number of Islands Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BACB1E728EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BACB1EC28EEE80700D3101B /* Build configuration list for PBXNativeTarget "Lect- 9 Flood Fill Algorithm Graph" */;
+			buildPhases = (
+				6BACB1E428EEE80700D3101B /* Sources */,
+				6BACB1E528EEE80700D3101B /* Frameworks */,
+				6BACB1E628EEE80700D3101B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect- 9 Flood Fill Algorithm Graph";
+			productName = "Lect- 9 Flood Fill Algorithm Graph";
+			productReference = 6BACB1E828EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BBBC2BB28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBBC2C228F53A770062E54D /* Build configuration list for PBXNativeTarget "Lect-21 TopoLogical Sort Algorithm Graph" */;
+			buildPhases = (
+				6BBBC2B828F53A770062E54D /* Sources */,
+				6BBBC2B928F53A770062E54D /* Frameworks */,
+				6BBBC2BA28F53A770062E54D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-21 TopoLogical Sort Algorithm Graph";
+			productName = "Lect-21 TopoLogical Sort Algorithm Graph";
+			productReference = 6BBBC2BC28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BBBC2C628F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBBC2CB28F540DF0062E54D /* Build configuration list for PBXNativeTarget "Lect-22 Kahns Algorithm Graph" */;
+			buildPhases = (
+				6BBBC2C328F540DF0062E54D /* Sources */,
+				6BBBC2C428F540DF0062E54D /* Frameworks */,
+				6BBBC2C528F540DF0062E54D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-22 Kahns Algorithm Graph";
+			productName = "Lect-22 Kahns Algorithm Graph";
+			productReference = 6BBBC2C728F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BBBC2D128F548180062E54D /* Lect-23 Detect cycle in directed Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBBC2D628F548180062E54D /* Build configuration list for PBXNativeTarget "Lect-23 Detect cycle in directed Graph" */;
+			buildPhases = (
+				6BBBC2CE28F548180062E54D /* Sources */,
+				6BBBC2CF28F548180062E54D /* Frameworks */,
+				6BBBC2D028F548180062E54D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-23 Detect cycle in directed Graph";
+			productName = "Lect-23 Detect cycle in directed Graph";
+			productReference = 6BBBC2D228F548180062E54D /* Lect-23 Detect cycle in directed Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		6BBBC2DC28F554130062E54D /* Lect-24 Prerequisite task I & II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BBBC2E128F554140062E54D /* Build configuration list for PBXNativeTarget "Lect-24 Prerequisite task I & II" */;
+			buildPhases = (
+				6BBBC2D928F554130062E54D /* Sources */,
+				6BBBC2DA28F554130062E54D /* Frameworks */,
+				6BBBC2DB28F554130062E54D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lect-24 Prerequisite task I & II";
+			productName = "Lect-24 Prerequisite task I & II";
+			productReference = 6BBBC2DD28F554140062E54D /* Lect-24 Prerequisite task I & II */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BACB1BC28EED54800D3101B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6B278CA128F1446900D91991 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B278CAC28F14D9600D91991 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B278CB728F152CF00D91991 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B278CC228F15C4000D91991 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36A9CE28F802110069B1ED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36A9D928F8186D0069B1ED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36A9E428F826480069B1ED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36A9EF28F836A00069B1ED = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36BDD028FE9A6E00FFAFE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B36BDDB28FEA98B00FFAFE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B596B2328F0293900CDB7F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B596B2E28F03B0100CDB7F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B596B3928F03B5B00CDB7F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B596B4428F03F5400CDB7F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B63AEE428FAB15100CA394C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B63AEEF28FABDB600CA394C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B63AEFA28FADFCC00CA394C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B63AF0528FAEA6700CA394C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B63AF1028FB307600CA394C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B83C21528F1E2FB00171548 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B83C22028F1E87000171548 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6B83C22B28F1EFB600171548 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BACB1C328EED54800D3101B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BACB1D128EED57000D3101B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BACB1DC28EEDD5500D3101B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BACB1E728EEE80700D3101B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BBBC2BB28F53A770062E54D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BBBC2C628F540DF0062E54D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BBBC2D128F548180062E54D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6BBBC2DC28F554130062E54D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BACB1BF28EED54800D3101B /* Build configuration list for PBXProject "Graph By Striver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BACB1BB28EED54800D3101B;
+			productRefGroup = 6BACB1C528EED54800D3101B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BACB1C328EED54800D3101B /* Graph By Striver */,
+				6BACB1D128EED57000D3101B /* Lect-7 Number of Provinces */,
+				6BACB1DC28EEDD5500D3101B /* Lect-8 Number of Islands Graph */,
+				6BACB1E728EEE80700D3101B /* Lect- 9 Flood Fill Algorithm Graph */,
+				6B596B2328F0293900CDB7F9 /* Lect-10 Rotten Oranges Graph */,
+				6B596B2E28F03B0100CDB7F9 /* Lect-11 Detect cycle in undirectional BFS */,
+				6B596B3928F03B5B00CDB7F9 /* Lect-12 Detect Cycle in Undirectional DFS */,
+				6B596B4428F03F5400CDB7F9 /* Lect-13 Distance of nearest cell having 1  Graph */,
+				6B278CA128F1446900D91991 /* Lect-14 Surrounded Region Graph */,
+				6B278CAC28F14D9600D91991 /* Lect-15 Number of Enclaves Graph */,
+				6B278CB728F152CF00D91991 /* Lect-16 Number of Distinct Islands Graph */,
+				6B278CC228F15C4000D91991 /* Lect-17 Bipartite Graph */,
+				6B83C21528F1E2FB00171548 /* Lect-18 Bipartite Graph Using DFS */,
+				6B83C22028F1E87000171548 /* Lect-19 Detect cycle in a directed graph using DFS */,
+				6B83C22B28F1EFB600171548 /* Lect-20 Find Eventual Safe States DFS Graph */,
+				6BBBC2BB28F53A770062E54D /* Lect-21 TopoLogical Sort Algorithm Graph */,
+				6BBBC2C628F540DF0062E54D /* Lect-22 Kahns Algorithm Graph */,
+				6BBBC2D128F548180062E54D /* Lect-23 Detect cycle in directed Graph */,
+				6BBBC2DC28F554130062E54D /* Lect-24 Prerequisite task I & II */,
+				6B36A9CE28F802110069B1ED /* Lect-25 Eventual safe states using Topo sort */,
+				6B36A9D928F8186D0069B1ED /* Lect-26 Alien Dictionary topoSort Graph */,
+				6B36A9E428F826480069B1ED /* Lect-27 Shortest path in weighted DAG TopoSort */,
+				6B36A9EF28F836A00069B1ED /* Lect-28 Shortest path in Undirected Graph */,
+				6B63AEE428FAB15100CA394C /* Lect-29 Word Ladder I Graph */,
+				6B63AEEF28FABDB600CA394C /* Lect-30 Word Ladder II Graph */,
+				6B63AEFA28FADFCC00CA394C /* Lect-32 Dijsktra's Algorithm Shortest */,
+				6B63AF0528FAEA6700CA394C /* Lect-33 Dijsktra's Algo Using Set */,
+				6B63AF1028FB307600CA394C /* Lect-35 Print Shortest Path using Dijsktra's Graph */,
+				6B36BDD028FE9A6E00FFAFE1 /* Lect-36 Shortest Distance in Bianry Maze Graph */,
+				6B36BDDB28FEA98B00FFAFE1 /* Lect-37 Path with Minimum Effort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B278C9E28F1446900D91991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B278CA528F1446900D91991 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CA928F14D9600D91991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B278CB028F14D9600D91991 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CB428F152CF00D91991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B278CBB28F152CF00D91991 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B278CBF28F15C4000D91991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B278CC628F15C4000D91991 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9CB28F802110069B1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36A9D228F802110069B1ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9D628F8186D0069B1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36A9DD28F8186D0069B1ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9E128F826480069B1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36A9E828F826480069B1ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36A9EC28F836A00069B1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36A9F328F836A00069B1ED /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36BDCD28FE9A6E00FFAFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36BDD428FE9A6E00FFAFE1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B36BDD828FEA98B00FFAFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36BDDF28FEA98B00FFAFE1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B2028F0293900CDB7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B596B2728F0293900CDB7F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B2B28F03B0100CDB7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B596B3228F03B0100CDB7F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B3628F03B5B00CDB7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B596B3D28F03B5B00CDB7F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B596B4128F03F5400CDB7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B596B4828F03F5400CDB7F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEE128FAB15100CA394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63AEE828FAB15100CA394C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEEC28FABDB600CA394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63AEF328FABDB600CA394C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AEF728FADFCC00CA394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63AEFE28FADFCC00CA394C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AF0228FAEA6700CA394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63AF0928FAEA6700CA394C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63AF0D28FB307600CA394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63AF1428FB307700CA394C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C21228F1E2FB00171548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B83C21928F1E2FB00171548 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C21D28F1E87000171548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B83C22428F1E87000171548 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B83C22828F1EFB600171548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B83C22F28F1EFB600171548 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1C028EED54800D3101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BACB1C828EED54800D3101B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1CE28EED57000D3101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BACB1D528EED57000D3101B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1D928EEDD5500D3101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BACB1E028EEDD5500D3101B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BACB1E428EEE80700D3101B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BACB1EB28EEE80700D3101B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2B828F53A770062E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBC2BF28F53A770062E54D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2C328F540DF0062E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBC2CA28F540DF0062E54D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2CE28F548180062E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBC2D528F548180062E54D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBC2D928F554130062E54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBBC2E028F554140062E54D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B278CA628F1446900D91991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B278CA728F1446900D91991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B278CB228F14D9600D91991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B278CB328F14D9600D91991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B278CBD28F152CF00D91991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B278CBE28F152CF00D91991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B278CC828F15C4000D91991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B278CC928F15C4000D91991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36A9D328F802110069B1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36A9D428F802110069B1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36A9DF28F8186D0069B1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36A9E028F8186D0069B1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36A9EA28F826480069B1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36A9EB28F826480069B1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36A9F528F836A00069B1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36A9F628F836A00069B1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36BDD528FE9A6E00FFAFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36BDD628FE9A6E00FFAFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B36BDE128FEA98B00FFAFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B36BDE228FEA98B00FFAFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B596B2828F0293900CDB7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B596B2928F0293900CDB7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B596B3428F03B0100CDB7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B596B3528F03B0100CDB7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B596B3F28F03B5B00CDB7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B596B4028F03B5B00CDB7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B596B4A28F03F5400CDB7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B596B4B28F03F5400CDB7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63AEE928FAB15100CA394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63AEEA28FAB15100CA394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63AEF528FABDB600CA394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63AEF628FABDB600CA394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63AF0028FADFCC00CA394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63AF0128FADFCC00CA394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63AF0B28FAEA6700CA394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63AF0C28FAEA6700CA394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63AF1628FB307700CA394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63AF1728FB307700CA394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B83C21B28F1E2FB00171548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B83C21C28F1E2FB00171548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B83C22628F1E87000171548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B83C22728F1E87000171548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B83C23128F1EFB600171548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B83C23228F1EFB600171548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BACB1C928EED54800D3101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BACB1CA28EED54800D3101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BACB1CC28EED54800D3101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BACB1CD28EED54800D3101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BACB1D728EED57000D3101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BACB1D828EED57000D3101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BACB1E228EEDD5500D3101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BACB1E328EEDD5500D3101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BACB1ED28EEE80700D3101B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BACB1EE28EEE80700D3101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BBBC2C028F53A770062E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBBC2C128F53A770062E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BBBC2CC28F540DF0062E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBBC2CD28F540DF0062E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BBBC2D728F548180062E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBBC2D828F548180062E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BBBC2E228F554140062E54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BBBC2E328F554140062E54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B278CA828F1446900D91991 /* Build configuration list for PBXNativeTarget "Lect-14 Surrounded Region Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B278CA628F1446900D91991 /* Debug */,
+				6B278CA728F1446900D91991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B278CB128F14D9600D91991 /* Build configuration list for PBXNativeTarget "Lect-15 Number of Enclaves Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B278CB228F14D9600D91991 /* Debug */,
+				6B278CB328F14D9600D91991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B278CBC28F152CF00D91991 /* Build configuration list for PBXNativeTarget "Lect-16 Number of Distinct Islands Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B278CBD28F152CF00D91991 /* Debug */,
+				6B278CBE28F152CF00D91991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B278CC728F15C4000D91991 /* Build configuration list for PBXNativeTarget "Lect-17 Bipartite Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B278CC828F15C4000D91991 /* Debug */,
+				6B278CC928F15C4000D91991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36A9D528F802110069B1ED /* Build configuration list for PBXNativeTarget "Lect-25 Eventual safe states using Topo sort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36A9D328F802110069B1ED /* Debug */,
+				6B36A9D428F802110069B1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36A9DE28F8186D0069B1ED /* Build configuration list for PBXNativeTarget "Lect-26 Alien Dictionary topoSort Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36A9DF28F8186D0069B1ED /* Debug */,
+				6B36A9E028F8186D0069B1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36A9E928F826480069B1ED /* Build configuration list for PBXNativeTarget "Lect-27 Shortest path in weighted DAG TopoSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36A9EA28F826480069B1ED /* Debug */,
+				6B36A9EB28F826480069B1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36A9F428F836A00069B1ED /* Build configuration list for PBXNativeTarget "Lect-28 Shortest path in Undirected Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36A9F528F836A00069B1ED /* Debug */,
+				6B36A9F628F836A00069B1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36BDD728FE9A6E00FFAFE1 /* Build configuration list for PBXNativeTarget "Lect-36 Shortest Distance in Bianry Maze Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36BDD528FE9A6E00FFAFE1 /* Debug */,
+				6B36BDD628FE9A6E00FFAFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B36BDE028FEA98B00FFAFE1 /* Build configuration list for PBXNativeTarget "Lect-37 Path with Minimum Effort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B36BDE128FEA98B00FFAFE1 /* Debug */,
+				6B36BDE228FEA98B00FFAFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B596B2A28F0293900CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-10 Rotten Oranges Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B596B2828F0293900CDB7F9 /* Debug */,
+				6B596B2928F0293900CDB7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B596B3328F03B0100CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-11 Detect cycle in undirectional BFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B596B3428F03B0100CDB7F9 /* Debug */,
+				6B596B3528F03B0100CDB7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B596B3E28F03B5B00CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-12 Detect Cycle in Undirectional DFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B596B3F28F03B5B00CDB7F9 /* Debug */,
+				6B596B4028F03B5B00CDB7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B596B4928F03F5400CDB7F9 /* Build configuration list for PBXNativeTarget "Lect-13 Distance of nearest cell having 1  Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B596B4A28F03F5400CDB7F9 /* Debug */,
+				6B596B4B28F03F5400CDB7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63AEEB28FAB15100CA394C /* Build configuration list for PBXNativeTarget "Lect-29 Word Ladder I Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63AEE928FAB15100CA394C /* Debug */,
+				6B63AEEA28FAB15100CA394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63AEF428FABDB600CA394C /* Build configuration list for PBXNativeTarget "Lect-30 Word Ladder II Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63AEF528FABDB600CA394C /* Debug */,
+				6B63AEF628FABDB600CA394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63AEFF28FADFCC00CA394C /* Build configuration list for PBXNativeTarget "Lect-32 Dijsktra's Algorithm Shortest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63AF0028FADFCC00CA394C /* Debug */,
+				6B63AF0128FADFCC00CA394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63AF0A28FAEA6700CA394C /* Build configuration list for PBXNativeTarget "Lect-33 Dijsktra's Algo Using Set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63AF0B28FAEA6700CA394C /* Debug */,
+				6B63AF0C28FAEA6700CA394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63AF1528FB307700CA394C /* Build configuration list for PBXNativeTarget "Lect-35 Print Shortest Path using Dijsktra's Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63AF1628FB307700CA394C /* Debug */,
+				6B63AF1728FB307700CA394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B83C21A28F1E2FB00171548 /* Build configuration list for PBXNativeTarget "Lect-18 Bipartite Graph Using DFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B83C21B28F1E2FB00171548 /* Debug */,
+				6B83C21C28F1E2FB00171548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B83C22528F1E87000171548 /* Build configuration list for PBXNativeTarget "Lect-19 Detect cycle in a directed graph using DFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B83C22628F1E87000171548 /* Debug */,
+				6B83C22728F1E87000171548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B83C23028F1EFB600171548 /* Build configuration list for PBXNativeTarget "Lect-20 Find Eventual Safe States DFS Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B83C23128F1EFB600171548 /* Debug */,
+				6B83C23228F1EFB600171548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BACB1BF28EED54800D3101B /* Build configuration list for PBXProject "Graph By Striver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BACB1C928EED54800D3101B /* Debug */,
+				6BACB1CA28EED54800D3101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BACB1CB28EED54800D3101B /* Build configuration list for PBXNativeTarget "Graph By Striver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BACB1CC28EED54800D3101B /* Debug */,
+				6BACB1CD28EED54800D3101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BACB1D628EED57000D3101B /* Build configuration list for PBXNativeTarget "Lect-7 Number of Provinces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BACB1D728EED57000D3101B /* Debug */,
+				6BACB1D828EED57000D3101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BACB1E128EEDD5500D3101B /* Build configuration list for PBXNativeTarget "Lect-8 Number of Islands Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BACB1E228EEDD5500D3101B /* Debug */,
+				6BACB1E328EEDD5500D3101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BACB1EC28EEE80700D3101B /* Build configuration list for PBXNativeTarget "Lect- 9 Flood Fill Algorithm Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BACB1ED28EEE80700D3101B /* Debug */,
+				6BACB1EE28EEE80700D3101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBBC2C228F53A770062E54D /* Build configuration list for PBXNativeTarget "Lect-21 TopoLogical Sort Algorithm Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBC2C028F53A770062E54D /* Debug */,
+				6BBBC2C128F53A770062E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBBC2CB28F540DF0062E54D /* Build configuration list for PBXNativeTarget "Lect-22 Kahns Algorithm Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBC2CC28F540DF0062E54D /* Debug */,
+				6BBBC2CD28F540DF0062E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBBC2D628F548180062E54D /* Build configuration list for PBXNativeTarget "Lect-23 Detect cycle in directed Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBC2D728F548180062E54D /* Debug */,
+				6BBBC2D828F548180062E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BBBC2E128F554140062E54D /* Build configuration list for PBXNativeTarget "Lect-24 Prerequisite task I & II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBBC2E228F554140062E54D /* Debug */,
+				6BBBC2E328F554140062E54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BACB1BC28EED54800D3101B /* Project object */;
+}
